@@ -1,0 +1,426 @@
+[
+  {
+    "phase": "Phase 1: Python Basics and Core Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to Python Programming",
+        "subtopics": [
+          { "subtopic": "Installing Python (Anaconda, PyCharm, or basic Python)", "questionsData": [] },
+          { "subtopic": "Setting up the IDE", "questionsData": [] },
+          { "subtopic": "Writing your first Python program: print(\"Hello, World!\")", "questionsData": [
+  {
+    "type": "fill",
+    "question": "To show 'Hello, World!' you write ______('Hello, World!').",
+    "answer": "print",
+    "component": "FillInTheBlank",
+    "hints": [
+      { "id": 1, "text": "This is the word that tells Python to show something on the screen." },
+      { "id": 2, "text": "It’s the very first thing you learn to do in Python—like saying hi!" },
+      { "id": 3, "text": "The word is small, only 5 letters, and easy to type." },
+      { "id": 4, "text": "When you use it, whatever is in the () shows up—like 'Hello, World!'." },
+      { "id": 5, "text": "It starts with 'p' and ends with 't'—think of 'printing' a message." }
+    ]
+  },
+  {
+    "type": "true-false",
+    "question": "You must save your file with .py to run print('Hello, World!').",
+    "answer": "True",
+    "component": "TrueFalseQuestion",
+    "hints": [
+      { "id": 1, "text": "Python needs to know your file is a Python program, so you add .py." },
+      { "id": 2, "text": "If you don’t save it with .py, Python won’t understand it’s your code." },
+      { "id": 3, "text": "For example, 'mycode.py' works, but 'mycode.txt' won’t." },
+      { "id": 4, "text": "The .py ending is like a tag that says, 'Hey, I’m a Python file!'" },
+      { "id": 5, "text": "When you save with .py, you can run it and see 'Hello, World!'." }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What happens when you run print('Hello, World!')?",
+    "options": [
+      "Nothing happens",
+      "Hello, World! shows up",
+      "An error pops up"
+    ],
+    "answer": "Hello, World! shows up",
+    "component": "MultipleChoiceQuestion",
+    "hints": [
+      { "id": 1, "text": "The word 'print' tells Python to show what’s inside the parentheses." },
+      { "id": 2, "text": "Whatever you put in the quotes, like 'Hello, World!', comes out on the screen." },
+      { "id": 3, "text": "There’s no mistake in print('Hello, World!'), so it won’t break." },
+      { "id": 4, "text": "Try it yourself—run it and see 'Hello, World!' appear!" },
+      { "id": 5, "text": "It’s the first fun thing you do in Python—it says hi to the world!" }
+    ]
+  },
+  {
+    "type": "order",
+    "question": "Put these steps in order to make your first program:",
+    "options": [
+      "Save it with .py at the end.",
+      "Run it with Python.",
+      "Write print('Hello, World!') in a file."
+    ],
+    "correctOrder": [
+      "Write print('Hello, World!') in a file.",
+      "Save it with .py at the end.",
+      "Run it with Python."
+    ],
+    "component": "OrderQuestion",
+    "hints": [
+      { "id": 1, "text": "First, you need to write the code—like print('Hello, World!')—in a file." },
+      { "id": 2, "text": "Next, you save it so Python can find it; .py is the special ending." },
+      { "id": 3, "text": "Last, you tell Python to run it, and you’ll see 'Hello, World!'." },
+      { "id": 4, "text": "Think of it like: write your note, put it in an envelope, then send it!" },
+      { "id": 5, "text": "If you mix up the order, Python won’t know what to do with your code." }
+    ]
+  },
+  {
+    "type": "fill",
+    "question": "Your file needs this ending to work: ______",
+    "answer": ".py",
+    "component": "FillInTheBlank",
+    "hints": [
+      { "id": 1, "text": "This ending tells Python, 'I’m a program you can run!'" },
+      { "id": 2, "text": "It’s just 3 letters and starts with a dot, like '.py'." },
+      { "id": 3, "text": "Without this, your print('Hello, World!') won’t work." },
+      { "id": 4, "text": "You add it when you save, like naming a file 'hello.py'." },
+      { "id": 5, "text": "The 'p' stands for Python—it’s a clue!" }
+    ]
+  },
+  {
+    "type": "multiple-selection",
+    "question": "What’s in print('Hello, World!')? (Pick all that fit)",
+    "options": [
+      "Hello",
+      "print",
+      "World!"
+    ],
+    "answer": ["print", "Hello", "World!"],
+    "component": "MultipleSelectionQuestion",
+    "hints": [
+      { "id": 1, "text": "'print' is the command that tells Python to show something." },
+      { "id": 2, "text": "'Hello' and 'World!' are the words you want to see on the screen." },
+      { "id": 3, "text": "All these parts work together to make 'Hello, World!' appear." },
+      { "id": 4, "text": "The quotes around 'Hello, World!' hold the message, but 'print' starts it." },
+      { "id": 5, "text": "Try writing it—it’s print and then the words in quotes!" }
+    ]
+  },
+  {
+    "type": "match",
+    "question": "Match each part to its job:",
+    "options": [
+      { "term": "'Hello, World!'", "match": "The message you see" },
+      { "term": "print", "match": "Tells Python to show it" }
+    ],
+    "component": "MatchQuestion",
+    "hints": [
+      { "id": 1, "text": "'print' is like a button you press to show something." },
+      { "id": 2, "text": "'Hello, World!' is what comes out when you press that button." },
+      { "id": 3, "text": "The first part is the action, the second part is the words." },
+      { "id": 4, "text": "Together, they make your first program say hi!" },
+      { "id": 5, "text": "Think: one tells Python what to do, one is what it shows." }
+    ]
+  },
+  {
+    "type": "code-correction",
+    "question": "What’s wrong?\n\nType hello world to show it.",
+    "options": [
+      "You need print('Hello, World!') with quotes.",
+      "That works fine.",
+      "Type print(hello world) instead."
+    ],
+    "answer": "You need print('Hello, World!') with quotes.",
+    "component": "CodeCorrectionQuestion",
+    "hints": [
+      { "id": 1, "text": "Just typing words won’t work—Python needs a command." },
+      { "id": 2, "text": "'print' is the command, and quotes hold the message." },
+      { "id": 3, "text": "Without quotes, Python gets confused about 'hello world'." },
+      { "id": 4, "text": "The right way is print('Hello, World!')—try it!" },
+      { "id": 5, "text": "One option shows the fix with 'print' and quotes." }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Where do you put print('Hello, World!')?",
+    "options": [
+      "In a file",
+      "On a piece of paper",
+      "In a book"
+    ],
+    "answer": "In a file",
+    "component": "MultipleChoiceQuestion",
+    "hints": [
+      { "id": 1, "text": "Python needs your code in a place it can read, like a file." },
+      { "id": 2, "text": "You save it with .py so Python knows where to look." },
+      { "id": 3, "text": "Paper or a book won’t work—Python can’t read those!" },
+      { "id": 4, "text": "Think of a computer file, like 'hello.py', for your code." },
+      { "id": 5, "text": "It’s where you type print('Hello, World!') to start." }
+    ]
+  },
+  {
+    "type": "unscramble",
+    "question": "Unscramble these to make your first program:",
+    "options": ["World", "say", "print", "Hello", "to"],
+    "answer": ["print", "Hello", "World"],
+    "component": "DragDropQuestion",
+    "hints": [
+      { "id": 1, "text": "The first word is the command that shows your message." },
+      { "id": 2, "text": "The next two words are what you want to say: 'Hello, World!'." },
+      { "id": 3, "text": "It starts with 'print'—that’s what makes it work." },
+      { "id": 4, "text": "In the real code, you’d add quotes around 'Hello World'." },
+      { "id": 5, "text": "Try it: print('Hello, World!') says hi when you run it!" }
+    ]
+  }
+]},
+          { "subtopic": "Python syntax, keywords, and comments", "questionsData": [] },
+          { "subtopic": "Python's interpreter vs. compiled languages", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          { "subtopic": "Numbers (integers, floats, complex)", "questionsData": [] },
+          { "subtopic": "Strings", "questionsData": [] },
+          { "subtopic": "Booleans", "questionsData": [] },
+          { "subtopic": "Type conversion (int to float, string to int, etc.)", "questionsData": [] },
+          { "subtopic": "Variable naming conventions and dynamic typing", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Operators and Expressions",
+        "subtopics": [
+          { "subtopic": "Arithmetic operators: +, -, *, /, //, %, *", "questionsData": [] },
+          { "subtopic": "Comparison operators: ==, !=, >, <, >=, <=", "questionsData": [] },
+          { "subtopic": "Logical operators: and, or, not", "questionsData": [] },
+          { "subtopic": "Assignment operators: =, +=", "questionsData": [] },
+          { "subtopic": "Bitwise operators (optional for beginners)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Control Flow: Conditionals and Loops",
+        "subtopics": [
+          { "subtopic": "Conditionals: if, elif, else", "questionsData": [] },
+          { "subtopic": "for loops (with range and iterables)", "questionsData": [] },
+          { "subtopic": "while loops", "questionsData": [] },
+          { "subtopic": "Loop control statements: break, continue, pass", "questionsData": [] },
+          { "subtopic": "Nested loops and conditionals", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "5. Functions and Modular Code",
+        "subtopics": [
+          { "subtopic": "Defining functions using def", "questionsData": [] },
+          { "subtopic": "Function parameters and return values", "questionsData": [] },
+          { "subtopic": "Function scope: local vs global variables", "questionsData": [] },
+          { "subtopic": "Default parameters and keyword arguments", "questionsData": [] },
+          { "subtopic": "Lambda functions (anonymous functions)", "questionsData": [] },
+          { "subtopic": "Understanding recursion (optional for beginners)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "6. Basic Input and Output",
+        "subtopics": [
+          { "subtopic": "User input using input()", "questionsData": [] },
+          { "subtopic": "Output formatting using print()", "questionsData": [] },
+          { "subtopic": "String interpolation (f-strings, % formatting, .format())", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Data Structures and Collections",
+    "topics": [
+      {
+        "topic": "7. Lists",
+        "subtopics": [
+          { "subtopic": "Creating and modifying lists", "questionsData": [] },
+          { "subtopic": "List methods: append(), pop(), remove(), etc.", "questionsData": [] },
+          { "subtopic": "List slicing and indexing", "questionsData": [] },
+          { "subtopic": "List comprehensions", "questionsData": [] },
+          { "subtopic": "Working with nested lists", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "8. Tuples",
+        "subtopics": [
+          { "subtopic": "Creating tuples and understanding immutability", "questionsData": [] },
+          { "subtopic": "Tuple packing and unpacking", "questionsData": [] },
+          { "subtopic": "Using tuples as dictionary keys", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "9. Dictionaries",
+        "subtopics": [
+          { "subtopic": "Creating dictionaries", "questionsData": [] },
+          { "subtopic": "Accessing, modifying, and deleting key-value pairs", "questionsData": [] },
+          { "subtopic": "Dictionary methods: keys(), values(), items()", "questionsData": [] },
+          { "subtopic": "Dictionary comprehensions", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "10. Sets",
+        "subtopics": [
+          { "subtopic": "Creating and using sets", "questionsData": [] },
+          { "subtopic": "Set operations: union, intersection, difference, symmetric difference", "questionsData": [] },
+          { "subtopic": "Set methods: add(), remove(), discard()", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "11. String Manipulation",
+        "subtopics": [
+          { "subtopic": "String slicing and indexing", "questionsData": [] },
+          { "subtopic": "String methods: split(), join(), replace(), strip(), etc.", "questionsData": [] },
+          { "subtopic": "String formatting with f-strings and .format()", "questionsData": [] },
+          { "subtopic": "Working with multi-line strings", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Intermediate Topics",
+    "topics": [
+      {
+        "topic": "12. File Handling",
+        "subtopics": [
+          { "subtopic": "Reading from and writing to text files", "questionsData": [] },
+          { "subtopic": "File modes: r, w, a, x", "questionsData": [] },
+          { "subtopic": "Context managers with with open() for safe file handling", "questionsData": [] },
+          { "subtopic": "Handling CSV files (optional)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "13. Error and Exception Handling",
+        "subtopics": [
+          { "subtopic": "try-except blocks for catching exceptions", "questionsData": [] },
+          { "subtopic": "Raising exceptions with raise", "questionsData": [] },
+          { "subtopic": "Using finally for clean-up actions", "questionsData": [] },
+          { "subtopic": "Custom exceptions (optional)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "14. Object-Oriented Programming (OOP) Basics",
+        "subtopics": [
+          { "subtopic": "Defining and using classes", "questionsData": [] },
+          { "subtopic": "Creating objects (instances)", "questionsData": [] },
+          { "subtopic": "Instance variables and methods", "questionsData": [] },
+          { "subtopic": "Constructor: __init__()", "questionsData": [] },
+          { "subtopic": "Class variables and methods", "questionsData": [] },
+          { "subtopic": "Inheritance and method overriding", "questionsData": [] },
+          { "subtopic": "Understanding self and super()", "questionsData": [] },
+          { "subtopic": "Encapsulation and private members (using _ and __)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "15. Modules and Packages",
+        "subtopics": [
+          { "subtopic": "Importing standard Python modules: math, os, random, etc.", "questionsData": [] },
+          { "subtopic": "Writing and importing custom modules", "questionsData": [] },
+          { "subtopic": "Using packages: understanding the __init__.py file", "questionsData": [] },
+          { "subtopic": "Installing external packages using pip", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "16. Working with Libraries",
+        "subtopics": [
+          { "subtopic": "Math Library: Basic mathematical functions like sqrt(), pow(), sin()", "questionsData": [] },
+          { "subtopic": "Random Library: Generating random numbers, selecting random elements", "questionsData": [] },
+          { "subtopic": "OS Library: Working with file systems, directories, and environment variables", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Working with Data and Basic Algorithms",
+    "topics": [
+      {
+        "topic": "17. Data Structures: Stacks, Queues, and Linked Lists (optional but useful)",
+        "subtopics": [
+          { "subtopic": "Implementing stacks using lists", "questionsData": [] },
+          { "subtopic": "Implementing queues with deque from the collections module", "questionsData": [] },
+          { "subtopic": "Simple linked lists (for understanding)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "18. Sorting and Searching Algorithms (optional for beginners)",
+        "subtopics": [
+          { "subtopic": "Understanding basic sorting algorithms: Bubble sort, Insertion sort, Merge sort", "questionsData": [] },
+          { "subtopic": "Searching algorithms: Linear search, Binary search", "questionsData": [] },
+          { "subtopic": "Built-in functions: sorted(), min(), max(), sum()", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Advanced Beginner Topics",
+    "topics": [
+      {
+        "topic": "19. Basic Regular Expressions",
+        "subtopics": [
+          { "subtopic": "Using the re module for pattern matching", "questionsData": [] },
+          { "subtopic": "Common regex patterns for matching text, digits, and special characters", "questionsData": [] },
+          { "subtopic": "Searching and replacing text with sub()", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "20. Debugging and Testing",
+        "subtopics": [
+          { "subtopic": "Print debugging: Using print statements to understand code flow", "questionsData": [] },
+          { "subtopic": "Logging: Using the logging module for structured log messages", "questionsData": [] },
+          { "subtopic": "Basic Unit Testing: Writing unit tests using Python’s unittest module", "questionsData": [] },
+          { "subtopic": "Running tests and interpreting results", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "21. Basic Introduction to Databases (Optional)",
+        "subtopics": [
+          { "subtopic": "Introduction to working with SQL databases in Python using sqlite3", "questionsData": [] },
+          { "subtopic": "Performing basic CRUD operations (Create, Read, Update, Delete)", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: Project Development and Version Control",
+    "topics": [
+      {
+        "topic": "22. Version Control with Git and GitHub",
+        "subtopics": [
+          { "subtopic": "Basic Git commands: git init, git add, git commit, git push", "questionsData": [] },
+          { "subtopic": "Understanding branching: git branch, git checkout", "questionsData": [] },
+          { "subtopic": "Working with GitHub repositories: pushing and pulling code", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "23. Building Small Projects",
+        "subtopics": [
+          { "subtopic": "Simple calculator app", "questionsData": [] },
+          { "subtopic": "To-do list manager (using file I/O)", "questionsData": [] },
+          { "subtopic": "Number guessing game", "questionsData": [] },
+          { "subtopic": "Basic web scraper (using requests and BeautifulSoup)", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Continuous Learning and Practice",
+    "topics": [
+      {
+        "topic": "24. Project-Based Learning",
+        "subtopics": [
+          { "subtopic": "Participate in coding challenges (e.g., HackerRank, LeetCode)", "questionsData": [] },
+          { "subtopic": "Build larger projects", "questionsData": [] },
+          { "subtopic": "Basic API interaction (fetching data from an API)", "questionsData": [] },
+          { "subtopic": "Simple web app with Flask or Django (optional)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "25. Explore Specialized Libraries and Fields",
+        "subtopics": [
+          { "subtopic": "Web Development: Flask, Django", "questionsData": [] },
+          { "subtopic": "Data Science: NumPy, Pandas, Matplotlib", "questionsData": [] },
+          { "subtopic": "Automation: selenium, pyautogui", "questionsData": [] }
+        ]
+      }
+    ]
+  }
+]

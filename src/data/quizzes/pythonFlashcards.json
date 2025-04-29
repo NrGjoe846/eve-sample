@@ -1,0 +1,288 @@
+[
+  {
+    "phase": "Phase 1: Python Basics and Core Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to Python Programming",
+        "subtopics": [
+          { "subtopic": "Installing Python (Anaconda, PyCharm, or basic Python)", "flashcards": [] },
+          { "subtopic": "Setting up the IDE", "flashcards": [] },
+          { "subtopic": "Writing your first Python program: print(\"Hello, World!\")", "flashcards":[
+  {
+    "id": "1",
+    "front": "What’s the first program you write in Python?",
+    "back": "It’s print('Hello, World!'). You write this line to make Python say 'Hello, World!' on the screen. It’s like Python’s way of saying hi to you when you start learning!"
+  },
+  {
+    "id": "2",
+    "front": "What does 'print' do in your program?",
+    "back": "'print' is a command that tells Python to show something. For example, print('Hello, World!') shows 'Hello, World!' on your screen. It’s how you make Python talk!"
+  },
+  {
+    "id": "3",
+    "front": "How do you save your first program?",
+    "back": "You write print('Hello, World!') in a file and save it with .py at the end, like 'hello.py'. The .py tells Python it’s a program it can run."
+  },
+  {
+    "id": "4",
+    "front": "How do you run print('Hello, World!')?",
+    "back": "First, write print('Hello, World!') in a file. Save it as something like 'hello.py'. Then, use Python to run the file—like typing 'python hello.py' in your terminal—and you’ll see 'Hello, World!'."
+  },
+  {
+    "id": "5",
+    "front": "Why is print('Hello, World!') special?",
+    "back": "It’s the first thing most people learn in Python because it’s super easy! You use 'print' to show 'Hello, World!', and it helps you see that Python is working. It’s like your first high-five with Python!"
+  }
+] },
+          { "subtopic": "Python syntax, keywords, and comments", "flashcards": [] },
+          { "subtopic": "Python's interpreter vs. compiled languages", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          { "subtopic": "Numbers (integers, floats, complex)", "flashcards": [] },
+          { "subtopic": "Strings", "flashcards": [] },
+          { "subtopic": "Booleans", "flashcards": [] },
+          { "subtopic": "Type conversion (int to float, string to int, etc.)", "flashcards": [] },
+          { "subtopic": "Variable naming conventions and dynamic typing", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "3. Operators and Expressions",
+        "subtopics": [
+          { "subtopic": "Arithmetic operators: +, -, *, /, //, %, *", "flashcards": [] },
+          { "subtopic": "Comparison operators: ==, !=, >, <, >=, <=", "flashcards": [] },
+          { "subtopic": "Logical operators: and, or, not", "flashcards": [] },
+          { "subtopic": "Assignment operators: =, +=", "flashcards": [] },
+          { "subtopic": "Bitwise operators (optional for beginners)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "4. Control Flow: Conditionals and Loops",
+        "subtopics": [
+          { "subtopic": "Conditionals: if, elif, else", "flashcards": [] },
+          { "subtopic": "for loops (with range and iterables)", "flashcards": [] },
+          { "subtopic": "while loops", "flashcards": [] },
+          { "subtopic": "Loop control statements: break, continue, pass", "flashcards": [] },
+          { "subtopic": "Nested loops and conditionals", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "5. Functions and Modular Code",
+        "subtopics": [
+          { "subtopic": "Defining functions using def", "flashcards": [] },
+          { "subtopic": "Function parameters and return values", "flashcards": [] },
+          { "subtopic": "Function scope: local vs global variables", "flashcards": [] },
+          { "subtopic": "Default parameters and keyword arguments", "flashcards": [] },
+          { "subtopic": "Lambda functions (anonymous functions)", "flashcards": [] },
+          { "subtopic": "Understanding recursion (optional for beginners)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "6. Basic Input and Output",
+        "subtopics": [
+          { "subtopic": "User input using input()", "flashcards": [] },
+          { "subtopic": "Output formatting using print()", "flashcards": [] },
+          { "subtopic": "String interpolation (f-strings, % formatting, .format())", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Data Structures and Collections",
+    "topics": [
+      {
+        "topic": "7. Lists",
+        "subtopics": [
+          { "subtopic": "Creating and modifying lists", "flashcards": [] },
+          { "subtopic": "List methods: append(), pop(), remove(), etc.", "flashcards": [] },
+          { "subtopic": "List slicing and indexing", "flashcards": [] },
+          { "subtopic": "List comprehensions", "flashcards": [] },
+          { "subtopic": "Working with nested lists", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "8. Tuples",
+        "subtopics": [
+          { "subtopic": "Creating tuples and understanding immutability", "flashcards": [] },
+          { "subtopic": "Tuple packing and unpacking", "flashcards": [] },
+          { "subtopic": "Using tuples as dictionary keys", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "9. Dictionaries",
+        "subtopics": [
+          { "subtopic": "Creating dictionaries", "flashcards": [] },
+          { "subtopic": "Accessing, modifying, and deleting key-value pairs", "flashcards": [] },
+          { "subtopic": "Dictionary methods: keys(), values(), items()", "flashcards": [] },
+          { "subtopic": "Dictionary comprehensions", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "10. Sets",
+        "subtopics": [
+          { "subtopic": "Creating and using sets", "flashcards": [] },
+          { "subtopic": "Set operations: union, intersection, difference, symmetric difference", "flashcards": [] },
+          { "subtopic": "Set methods: add(), remove(), discard()", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "11. String Manipulation",
+        "subtopics": [
+          { "subtopic": "String slicing and indexing", "flashcards": [] },
+          { "subtopic": "String methods: split(), join(), replace(), strip(), etc.", "flashcards": [] },
+          { "subtopic": "String formatting with f-strings and .format()", "flashcards": [] },
+          { "subtopic": "Working with multi-line strings", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Intermediate Topics",
+    "topics": [
+      {
+        "topic": "12. File Handling",
+        "subtopics": [
+          { "subtopic": "Reading from and writing to text files", "flashcards": [] },
+          { "subtopic": "File modes: r, w, a, x", "flashcards": [] },
+          { "subtopic": "Context managers with with open() for safe file handling", "flashcards": [] },
+          { "subtopic": "Handling CSV files (optional)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "13. Error and Exception Handling",
+        "subtopics": [
+          { "subtopic": "try-except blocks for catching exceptions", "flashcards": [] },
+          { "subtopic": "Raising exceptions with raise", "flashcards": [] },
+          { "subtopic": "Using finally for clean-up actions", "flashcards": [] },
+          { "subtopic": "Custom exceptions (optional)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "14. Object-Oriented Programming (OOP) Basics",
+        "subtopics": [
+          { "subtopic": "Defining and using classes", "flashcards": [] },
+          { "subtopic": "Creating objects (instances)", "flashcards": [] },
+          { "subtopic": "Instance variables and methods", "flashcards": [] },
+          { "subtopic": "Constructor: __init__()", "flashcards": [] },
+          { "subtopic": "Class variables and methods", "flashcards": [] },
+          { "subtopic": "Inheritance and method overriding", "flashcards": [] },
+          { "subtopic": "Understanding self and super()", "flashcards": [] },
+          { "subtopic": "Encapsulation and private members (using _ and __)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "15. Modules and Packages",
+        "subtopics": [
+          { "subtopic": "Importing standard Python modules: math, os, random, etc.", "flashcards": [] },
+          { "subtopic": "Writing and importing custom modules", "flashcards": [] },
+          { "subtopic": "Using packages: understanding the __init__.py file", "flashcards": [] },
+          { "subtopic": "Installing external packages using pip", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "16. Working with Libraries",
+        "subtopics": [
+          { "subtopic": "Math Library: Basic mathematical functions like sqrt(), pow(), sin()", "flashcards": [] },
+          { "subtopic": "Random Library: Generating random numbers, selecting random elements", "flashcards": [] },
+          { "subtopic": "OS Library: Working with file systems, directories, and environment variables", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Working with Data and Basic Algorithms",
+    "topics": [
+      {
+        "topic": "17. Data Structures: Stacks, Queues, and Linked Lists (optional but useful)",
+        "subtopics": [
+          { "subtopic": "Implementing stacks using lists", "flashcards": [] },
+          { "subtopic": "Implementing queues with deque from the collections module", "flashcards": [] },
+          { "subtopic": "Simple linked lists (for understanding)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "18. Sorting and Searching Algorithms (optional for beginners)",
+        "subtopics": [
+          { "subtopic": "Understanding basic sorting algorithms: Bubble sort, Insertion sort, Merge sort", "flashcards": [] },
+          { "subtopic": "Searching algorithms: Linear search, Binary search", "flashcards": [] },
+          { "subtopic": "Built-in functions: sorted(), min(), max(), sum()", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Advanced Beginner Topics",
+    "topics": [
+      {
+        "topic": "19. Basic Regular Expressions",
+        "subtopics": [
+          { "subtopic": "Using the re module for pattern matching", "flashcards": [] },
+          { "subtopic": "Common regex patterns for matching text, digits, and special characters", "flashcards": [] },
+          { "subtopic": "Searching and replacing text with sub()", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "20. Debugging and Testing",
+        "subtopics": [
+          { "subtopic": "Print debugging: Using print statements to understand code flow", "flashcards": [] },
+          { "subtopic": "Logging: Using the logging module for structured log messages", "flashcards": [] },
+          { "subtopic": "Basic Unit Testing: Writing unit tests using Python’s unittest module", "flashcards": [] },
+          { "subtopic": "Running tests and interpreting results", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "21. Basic Introduction to Databases (Optional)",
+        "subtopics": [
+          { "subtopic": "Introduction to working with SQL databases in Python using sqlite3", "flashcards": [] },
+          { "subtopic": "Performing basic CRUD operations (Create, Read, Update, Delete)", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: Project Development and Version Control",
+    "topics": [
+      {
+        "topic": "22. Version Control with Git and GitHub",
+        "subtopics": [
+          { "subtopic": "Basic Git commands: git init, git add, git commit, git push", "flashcards": [] },
+          { "subtopic": "Understanding branching: git branch, git checkout", "flashcards": [] },
+          { "subtopic": "Working with GitHub repositories: pushing and pulling code", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "23. Building Small Projects",
+        "subtopics": [
+          { "subtopic": "Simple calculator app", "flashcards": [] },
+          { "subtopic": "To-do list manager (using file I/O)", "flashcards": [] },
+          { "subtopic": "Number guessing game", "flashcards": [] },
+          { "subtopic": "Basic web scraper (using requests and BeautifulSoup)", "flashcards": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Continuous Learning and Practice",
+    "topics": [
+      {
+        "topic": "24. Project-Based Learning",
+        "subtopics": [
+          { "subtopic": "Participate in coding challenges (e.g., HackerRank, LeetCode)", "flashcards": [] },
+          { "subtopic": "Build larger projects", "flashcards": [] },
+          { "subtopic": "Basic API interaction (fetching data from an API)", "flashcards": [] },
+          { "subtopic": "Simple web app with Flask or Django (optional)", "flashcards": [] }
+        ]
+      },
+      {
+        "topic": "25. Explore Specialized Libraries and Fields",
+        "subtopics": [
+          { "subtopic": "Web Development: Flask, Django", "flashcards": [] },
+          { "subtopic": "Data Science: NumPy, Pandas, Matplotlib", "flashcards": [] },
+          { "subtopic": "Automation: selenium, pyautogui", "flashcards": [] }
+        ]
+      }
+    ]
+  }
+]

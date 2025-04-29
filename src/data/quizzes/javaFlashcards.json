@@ -1,0 +1,481 @@
+[
+  {
+    "phase": "Phase 1: Java Basics and Core Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to Java Programming",
+        "subtopics": [
+          {
+            "subtopic": "Installing Java (JDK, JRE)",
+            "flashcards": [
+              {
+                "id": "1",
+                "front": "What is Java?",
+                "back": "Java is a high-level, class-based, object-oriented programming language designed to be platform-independent through the 'Write Once, Run Anywhere' principle."
+              },
+              {
+                "id": "2",
+                "front": "What is JDK?",
+                "back": "JDK (Java Development Kit) is a software development environment used for developing Java applications. It includes:\n- Java Runtime Environment (JRE)\n- Development tools\n- Java compiler (javac)\n- Documentation"
+              },
+              {
+                "id": "3",
+                "front": "What is JRE?",
+                "back": "JRE (Java Runtime Environment) is the runtime environment required to execute Java applications. It includes:\n- Java Virtual Machine (JVM)\n- Core classes\n- Supporting files"
+              },
+              {
+                "id": "4",
+                "front": "What is JVM?",
+                "back": "JVM (Java Virtual Machine) is an abstract computing machine that provides a runtime environment in which Java bytecode can be executed. It enables Java's platform independence by interpreting compiled Java binary code for different hardware platforms."
+              },
+              {
+                "id": "5",
+                "front": "What is the difference between JDK and JRE?",
+                "back": "JDK includes everything needed for Java development:\n- Compiler\n- Debugger\n- Documentation tools\n- JRE\n\nJRE only includes what's needed to run Java applications:\n- JVM\n- Core classes\n- Supporting files"
+              }
+            ]
+          },
+          {
+            "subtopic": "Setting up the IDE (IntelliJ IDEA, Eclipse, or VS Code)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Writing your first Java program: Hello, World!",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Java syntax, keywords, and comments",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Understanding the Java Virtual Machine (JVM)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          {
+            "subtopic": "Primitive data types: int, double, char, boolean",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Variables and constants (final keyword)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Type casting: implicit and explicit",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Variable naming conventions",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Operators and Expressions",
+        "subtopics": [
+          {
+            "subtopic": "Arithmetic operators: +, -, *, /, %",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Comparison operators: ==, !=, >, <, >=, <=",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Logical operators: &&, ||, !",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Assignment operators: =, +=, -=, *=, /=",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Ternary operator: ? :",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Control Flow: Conditionals and Loops",
+        "subtopics": [
+          {
+            "subtopic": "Conditionals: if, else if, else",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Switch-case statements",
+            "flashcards": []
+          },
+          {
+            "subtopic": "for loops",
+            "flashcards": []
+          },
+          {
+            "subtopic": "while and do-while loops",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Loop control statements: break, continue",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "5. Functions (Methods)",
+        "subtopics": [
+          {
+            "subtopic": "Defining methods using public, private, static",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Method parameters and return values",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Method overloading",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Recursion (optional for beginners)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "6. Basic Input and Output",
+        "subtopics": [
+          {
+            "subtopic": "User input using Scanner class",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Output using System.out.println()",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Formatting output with printf()",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Object-Oriented Programming",
+    "topics": [
+      {
+        "topic": "7. Introduction to OOP",
+        "subtopics": [
+          {
+            "subtopic": "Classes and objects",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Instance variables and methods",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Constructors: default and parameterized",
+            "flashcards": []
+          },
+          {
+            "subtopic": "this keyword",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "8. Encapsulation and Access Modifiers",
+        "subtopics": [
+          {
+            "subtopic": "Private vs public access modifiers",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Getters and setters",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Encapsulation principles",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "9. Inheritance",
+        "subtopics": [
+          {
+            "subtopic": "Extending classes using extends",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Method overriding",
+            "flashcards": []
+          },
+          {
+            "subtopic": "super keyword",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Types of inheritance: single, multilevel, hierarchical",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "10. Polymorphism",
+        "subtopics": [
+          {
+            "subtopic": "Method overloading (compile-time polymorphism)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Method overriding (runtime polymorphism)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Dynamic method dispatch",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "11. Abstraction and Interfaces",
+        "subtopics": [
+          {
+            "subtopic": "Abstract classes and methods",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Interfaces and their implementation",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Multiple inheritance using interfaces",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Data Structures and Collections",
+    "topics": [
+      {
+        "topic": "12. Arrays",
+        "subtopics": [
+          {
+            "subtopic": "Single-dimensional and multi-dimensional arrays",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Array manipulation: sorting, searching",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Enhanced for loop",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "13. Collections Framework",
+        "subtopics": [
+          {
+            "subtopic": "Lists: ArrayList, LinkedList",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Sets: HashSet, TreeSet",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Maps: HashMap, TreeMap",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Iterators and for-each loop",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Exception Handling and File I/O",
+    "topics": [
+      {
+        "topic": "14. Exception Handling",
+        "subtopics": [
+          {
+            "subtopic": "Try-catch blocks",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Multiple catch blocks",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Finally block",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Custom exceptions",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "15. File Handling",
+        "subtopics": [
+          {
+            "subtopic": "Reading from and writing to files using FileReader, FileWriter",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Using BufferedReader and BufferedWriter",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Handling file exceptions",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Advanced Java Concepts",
+    "topics": [
+      {
+        "topic": "16. Multithreading",
+        "subtopics": [
+          {
+            "subtopic": "Creating threads using Thread class and Runnable interface",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Thread synchronization",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Thread lifecycle",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "17. Generics",
+        "subtopics": [
+          {
+            "subtopic": "Generic classes and methods",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Type parameters",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Bounded types",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: Working with Libraries and APIs",
+    "topics": [
+      {
+        "topic": "18. Java Standard Library",
+        "subtopics": [
+          {
+            "subtopic": "Working with java.util, java.io, java.math",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Using StringBuilder and StringBuffer",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Date and time API (java.time)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "19. Working with APIs",
+        "subtopics": [
+          {
+            "subtopic": "Sending HTTP requests using HttpURLConnection",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Parsing JSON data using libraries like Gson or Jackson",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Project Development and Continuous Learning",
+    "topics": [
+      {
+        "topic": "20. Version Control with Git",
+        "subtopics": [
+          {
+            "subtopic": "Basic Git commands: git init, add, commit, push",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Branching and merging",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Working with GitHub",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "21. Building Projects",
+        "subtopics": [
+          {
+            "subtopic": "Project 1: Simple Banking System",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Project 2: Student Management System",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Project 3: Online Quiz Application",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "22. Exploring Advanced Topics",
+        "subtopics": [
+          {
+            "subtopic": "JavaFX for GUI development",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Spring Boot for web development",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Unit Testing with JUnit",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  }
+]

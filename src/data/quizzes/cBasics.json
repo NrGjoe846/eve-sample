@@ -1,0 +1,341 @@
+[
+  {
+    "phase": "Phase 1: Introduction and Basic Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to C Programming",
+        "subtopics": [
+          { "subtopic": "What is C?", "questionsData": [{
+      "type": "fill",
+      "question": "Python is an example of a __________ language, meaning it is executed line-by-line by an interpreter.",
+      "answer": "interpreted",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is true about Python compared to compiled languages?",
+      "options": [
+        "Python code is translated into machine code before execution.",
+        "Python code is executed line-by-line by an interpreter.",
+        "Python requires a separate compilation step to run."
+      ],
+      "answer": "Python code is executed line-by-line by an interpreter.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Python is a compiled language, meaning the entire program is converted into machine code before execution.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct statement about Python's execution:",
+      "options": ["line-by-line", "executed", "Python", "is", "code", "by", "an", "interpreter"],
+      "answer": ["Python", "code", "is", "executed", "line-by-line", "by", "an", "interpreter"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the main difference between Python and a compiled language like C++?",
+      "options": [
+        "Python requires an interpreter to run.",
+        "Python requires a compiler to run.",
+        "Python does not need any translation step."
+      ],
+      "answer": "Python requires an interpreter to run.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the language to whether it uses an interpreter or a compiler for execution:",
+      "options": [
+        { "term": "Python", "match": "Interpreter" },
+        { "term": "C++", "match": "Compiler" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are advantages of interpreted languages like Python? (Select all that apply)",
+      "options": [
+        "Easier to debug",
+        "Faster execution",
+        "Portability across different platforms"
+      ],
+      "answer": ["Easier to debug", "Portability across different platforms"],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for Python execution:",
+      "options": [
+        "Python code is written and saved in a .py file.",
+        "The interpreter reads and executes the code line-by-line.",
+        "The output is displayed on the screen."
+      ],
+      "correctOrder": [
+        "Python code is written and saved in a .py file.",
+        "The interpreter reads and executes the code line-by-line.",
+        "The output is displayed on the screen."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this statement about Python?\n\nPython code is compiled into machine code before execution.",
+      "options": [
+        "Python code is not compiled.",
+        "Python code is compiled into bytecode.",
+        "Python code is executed by an interpreter."
+      ],
+      "answer": "Python code is not compiled.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the code to demonstrate Python's execution process.\n\nOutput: `Python is an interpreted language!`",
+      "answer": "print(\"Python is an interpreted language!\")",
+      "component": "FillInTheBlank"
+    }]},
+          { "subtopic": "Setting up the C Environment (GCC, Code::Blocks, VS Code)", "questionsData": [] },
+          { "subtopic": "Writing and Running a C Program", "questionsData": [] },
+          { "subtopic": "Structure of a C Program", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          { "subtopic": "Data Types (int, float, char, double)", "questionsData": [] },
+          { "subtopic": "Declaring and Initializing Variables", "questionsData": [] },
+          { "subtopic": "Constants and #define", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Operators in C",
+        "subtopics": [
+          { "subtopic": "Arithmetic, Relational, Logical, Bitwise, and Assignment Operators", "questionsData": [] },
+          { "subtopic": "Increment (++), Decrement (--)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Basic Input and Output",
+        "subtopics": [
+          { "subtopic": "printf() and scanf()", "questionsData": [] },
+          { "subtopic": "getchar(), putchar(), gets(), puts()", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Control Flow and Functions",
+    "topics": [
+      {
+        "topic": "1. Conditional Statements",
+        "subtopics": [
+          { "subtopic": "if, if-else statements", "questionsData": [] },
+          { "subtopic": "nested if-else statements", "questionsData": [] },
+          { "subtopic": "switch-case statements", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Loops and Iterations",
+        "subtopics": [
+          { "subtopic": "for loop", "questionsData": [] },
+          { "subtopic": "while loop", "questionsData": [] },
+          { "subtopic": "do-while loop", "questionsData": [] },
+          { "subtopic": "break and continue statements", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Functions and Modular Programming",
+        "subtopics": [
+          { "subtopic": "Function Declaration, Definition, and Calling", "questionsData": [] },
+          { "subtopic": "Function Arguments and Return Values", "questionsData": [] },
+          { "subtopic": "Recursion", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Storage Classes in C",
+        "subtopics": [
+          { "subtopic": "auto storage class", "questionsData": [] },
+          { "subtopic": "static storage class", "questionsData": [] },
+          { "subtopic": "extern storage class", "questionsData": [] },
+          { "subtopic": "register storage class", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Arrays, Strings, and Pointers",
+    "topics": [
+      {
+        "topic": "1. Arrays",
+        "subtopics": [
+          { "subtopic": "One-Dimensional and Two-Dimensional Arrays", "questionsData": [] },
+          { "subtopic": "Multi-Dimensional Arrays", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Strings in C",
+        "subtopics": [
+          { "subtopic": "String Functions (strlen(), strcpy(), strcat(), strcmp())", "questionsData": [] },
+          { "subtopic": "Character Arrays and String Manipulation", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Pointers",
+        "subtopics": [
+          { "subtopic": "Pointer Basics (* and & Operators)", "questionsData": [] },
+          { "subtopic": "Pointer Arithmetic", "questionsData": [] },
+          { "subtopic": "Pointers and Arrays", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Dynamic Memory Allocation",
+        "subtopics": [
+          { "subtopic": "malloc(), calloc(), realloc(), free()", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Memory Management",
+    "topics": [
+      {
+        "topic": "1. Structures and Unions",
+        "subtopics": [
+          { "subtopic": "Defining and Using Structures", "questionsData": [] },
+          { "subtopic": "Arrays of Structure", "questionsData": [] },
+          { "subtopic": "Nested Structures", "questionsData": [] },
+          { "subtopic": "typedef and Unions", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. File Handling in C",
+        "subtopics": [
+          { "subtopic": "File Operations: Open, Read, Write, Close", "questionsData": [] },
+          { "subtopic": "File Handling Functions (fopen(), fclose(), fscanf(), fprintf())", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Preprocessor Directives and Macros",
+        "subtopics": [
+          { "subtopic": "#define, #include", "questionsData": [] },
+          { "subtopic": "#ifdef, #ifndef", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Structures and Unions",
+    "topics": [
+      {
+        "topic": "1. Introduction to Data Structures",
+        "subtopics": [
+          { "subtopic": "Understanding Data Structures", "questionsData": [] },
+          { "subtopic": "Abstract Data Types (ADTs)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Linked Lists",
+        "subtopics": [
+          { "subtopic": "Singly Linked List", "questionsData": [] },
+          { "subtopic": "Doubly Linked List", "questionsData": [] },
+          { "subtopic": "Circular Linked List", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Stacks and Queues",
+        "subtopics": [
+          { "subtopic": "Stack Operations (Push, Pop)", "questionsData": [] },
+          { "subtopic": "Queue Operations (Enqueue, Dequeue)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Sorting Algorithms",
+        "subtopics": [
+          { "subtopic": "Bubble Sort", "questionsData": [] },
+          { "subtopic": "Selection Sort", "questionsData": [] },
+          { "subtopic": "Insertion Sort", "questionsData": [] },
+          { "subtopic": "Merge Sort", "questionsData": [] },
+          { "subtopic": "Quick Sort", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "5. Searching Algorithms",
+        "subtopics": [
+          { "subtopic": "Linear Search", "questionsData": [] },
+          { "subtopic": "Binary Search", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: File Handling",
+    "topics": [
+      {
+        "topic": "1. Bitwise Operations",
+        "subtopics": [
+          { "subtopic": "AND, OR, XOR, NOT", "questionsData": [] },
+          { "subtopic": "Left Shift, Right Shift", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Command-Line Arguments",
+        "subtopics": [
+          { "subtopic": "Understanding argc and argv[]", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Multi-File Programming",
+        "subtopics": [
+          { "subtopic": "Writing Modular Code with Multiple Source Files", "questionsData": [] },
+          { "subtopic": "Using extern for Global Variables", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Debugging Techniques",
+        "subtopics": [
+          { "subtopic": "Using gdb for Debugging", "questionsData": [] },
+          { "subtopic": "Understanding Segmentation Faults and Memory Leaks", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Advanced Topics",
+    "topics": [
+      {
+        "topic": "1. Optimizing C Programs",
+        "subtopics": [
+          { "subtopic": "Performance Improvement Techniques", "questionsData": [] },
+          { "subtopic": "Avoiding Common Mistakes", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "2. Building Small C Projects",
+        "subtopics": [
+          { "subtopic": "Mini Calculator", "questionsData": [] },
+          { "subtopic": "File Management System", "questionsData": [] },
+          { "subtopic": "Student Record System", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "3. Real-World Applications of C",
+        "subtopics": [
+          { "subtopic": "System Programming", "questionsData": [] },
+          { "subtopic": "Embedded Systems", "questionsData": [] },
+          { "subtopic": "Game Development", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "4. Keeping Up with C Programming",
+        "subtopics": [
+          { "subtopic": "Learning Advanced Topics (Multithreading, Networking in C)", "questionsData": [] },
+          { "subtopic": "Understanding Open-Source C Projects", "questionsData": [] }
+        ]
+      }
+    ]
+  }
+]

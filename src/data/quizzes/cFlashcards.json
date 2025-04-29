@@ -1,0 +1,491 @@
+[
+  {
+    "phase": "Phase 1: Introduction and Basic Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to C Programming",
+        "subtopics": [
+          {
+            "subtopic": "What is C?",
+            "flashcards": [
+              {
+                "id": "1",
+                "front": "What is C?",
+                "back": "C is a high-level, structured programming language developed in the early 1970s by Dennis Ritchie at Bell Labs, widely used for system programming, operating systems, and embedded systems."
+              },
+              {
+                "id": "2",
+                "front": "Why is C important?",
+                "back": "C is important because it provides low-level access to memory, is fast and efficient, and serves as the foundation for many modern languages like C++, Java, and Python."
+              },
+              {
+                "id": "3",
+                "front": "What are some key features of C?",
+                "back": "Key features of C include manual memory management, pointers, a rich set of operators, and a minimal runtime, making it highly portable and powerful."
+              },
+              {
+                "id": "4",
+                "front": "Who created C?",
+                "back": "C was created by Dennis Ritchie at Bell Labs while developing the UNIX operating system, building on the earlier B language by Ken Thompson."
+              },
+              {
+                "id": "5",
+                "front": "What is C used for today?",
+                "back": "C is used today in operating systems (e.g., Linux), embedded systems, firmware, game development, and performance-critical applications."
+              }
+            ]
+          },
+          {
+            "subtopic": "Setting up the C Environment (GCC, Code::Blocks, VS Code)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Writing and Running a C Program",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Structure of a C Program",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          {
+            "subtopic": "Data Types (int, float, char, double)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Declaring and Initializing Variables",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Constants and #define",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Operators in C",
+        "subtopics": [
+          {
+            "subtopic": "Arithmetic, Relational, Logical, Bitwise, and Assignment Operators",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Increment (++), Decrement (--)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Basic Input and Output",
+        "subtopics": [
+          {
+            "subtopic": "printf() and scanf()",
+            "flashcards": []
+          },
+          {
+            "subtopic": "getchar(), putchar(), gets(), puts()",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Control Flow and Functions",
+    "topics": [
+      {
+        "topic": "1. Conditional Statements",
+        "subtopics": [
+          {
+            "subtopic": "if, if-else statements",
+            "flashcards": []
+          },
+          {
+            "subtopic": "nested if-else statements",
+            "flashcards": []
+          },
+          {
+            "subtopic": "switch-case statements",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Loops and Iterations",
+        "subtopics": [
+          {
+            "subtopic": "for loop",
+            "flashcards": []
+          },
+          {
+            "subtopic": "while loop",
+            "flashcards": []
+          },
+          {
+            "subtopic": "do-while loop",
+            "flashcards": []
+          },
+          {
+            "subtopic": "break and continue statements",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Functions and Modular Programming",
+        "subtopics": [
+          {
+            "subtopic": "Function Declaration, Definition, and Calling",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Function Arguments and Return Values",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Recursion",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Storage Classes in C",
+        "subtopics": [
+          {
+            "subtopic": "auto storage class",
+            "flashcards": []
+          },
+          {
+            "subtopic": "static storage class",
+            "flashcards": []
+          },
+          {
+            "subtopic": "extern storage class",
+            "flashcards": []
+          },
+          {
+            "subtopic": "register storage class",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Arrays, Strings, and Pointers",
+    "topics": [
+      {
+        "topic": "1. Arrays",
+        "subtopics": [
+          {
+            "subtopic": "One-Dimensional and Two-Dimensional Arrays",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Multi-Dimensional Arrays",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Strings in C",
+        "subtopics": [
+          {
+            "subtopic": "String Functions (strlen(), strcpy(), strcat(), strcmp())",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Character Arrays and String Manipulation",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Pointers",
+        "subtopics": [
+          {
+            "subtopic": "Pointer Basics (* and & Operators)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Pointer Arithmetic",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Pointers and Arrays",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Dynamic Memory Allocation",
+        "subtopics": [
+          {
+            "subtopic": "malloc(), calloc(), realloc(), free()",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Memory Management",
+    "topics": [
+      {
+        "topic": "1. Structures and Unions",
+        "subtopics": [
+          {
+            "subtopic": "Defining and Using Structures",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Arrays of Structure",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Nested Structures",
+            "flashcards": []
+          },
+          {
+            "subtopic": "typedef and Unions",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. File Handling in C",
+        "subtopics": [
+          {
+            "subtopic": "File Operations: Open, Read, Write, Close",
+            "flashcards": []
+          },
+          {
+            "subtopic": "File Handling Functions (fopen(), fclose(), fscanf(), fprintf())",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Preprocessor Directives and Macros",
+        "subtopics": [
+          {
+            "subtopic": "#define, #include",
+            "flashcards": []
+          },
+          {
+            "subtopic": "#ifdef, #ifndef",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Structures and Unions",
+    "topics": [
+      {
+        "topic": "1. Introduction to Data Structures",
+        "subtopics": [
+          {
+            "subtopic": "Understanding Data Structures",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Abstract Data Types (ADTs)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Linked Lists",
+        "subtopics": [
+          {
+            "subtopic": "Singly Linked List",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Doubly Linked List",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Circular Linked List",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Stacks and Queues",
+        "subtopics": [
+          {
+            "subtopic": "Stack Operations (Push, Pop)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Queue Operations (Enqueue, Dequeue)",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Sorting Algorithms",
+        "subtopics": [
+          {
+            "subtopic": "Bubble Sort",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Selection Sort",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Insertion Sort",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Merge Sort",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Quick Sort",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "5. Searching Algorithms",
+        "subtopics": [
+          {
+            "subtopic": "Linear Search",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Binary Search",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: File Handling",
+    "topics": [
+      {
+        "topic": "1. Bitwise Operations",
+        "subtopics": [
+          {
+            "subtopic": "AND, OR, XOR, NOT",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Left Shift, Right Shift",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Command-Line Arguments",
+        "subtopics": [
+          {
+            "subtopic": "Understanding argc and argv[]",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Multi-File Programming",
+        "subtopics": [
+          {
+            "subtopic": "Writing Modular Code with Multiple Source Files",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Using extern for Global Variables",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Debugging Techniques",
+        "subtopics": [
+          {
+            "subtopic": "Using gdb for Debugging",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Understanding Segmentation Faults and Memory Leaks",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Advanced Topics",
+    "topics": [
+      {
+        "topic": "1. Optimizing C Programs",
+        "subtopics": [
+          {
+            "subtopic": "Performance Improvement Techniques",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Avoiding Common Mistakes",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "2. Building Small C Projects",
+        "subtopics": [
+          {
+            "subtopic": "Mini Calculator",
+            "flashcards": []
+          },
+          {
+            "subtopic": "File Management System",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Student Record System",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "3. Real-World Applications of C",
+        "subtopics": [
+          {
+            "subtopic": "System Programming",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Embedded Systems",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Game Development",
+            "flashcards": []
+          }
+        ]
+      },
+      {
+        "topic": "4. Keeping Up with C Programming",
+        "subtopics": [
+          {
+            "subtopic": "Learning Advanced Topics (Multithreading, Networking in C)",
+            "flashcards": []
+          },
+          {
+            "subtopic": "Understanding Open-Source C Projects",
+            "flashcards": []
+          }
+        ]
+      }
+    ]
+  }
+]

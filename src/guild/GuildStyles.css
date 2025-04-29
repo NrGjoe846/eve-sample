@@ -1,0 +1,104 @@
+/* src/guild/GuildStyles.css */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.space-background {
+  background: radial-gradient(circle at center, #1a0b2e 0%, #0d041a 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.cosmic-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: url('https://www.transparenttextures.com/patterns/stardust.png');
+  opacity: 0.1;
+  animation: pulseStars 10s infinite alternate;
+}
+
+@keyframes pulseStars {
+  0% { opacity: 0.1; }
+  100% { opacity: 0.3; }
+}
+
+.floating-astronaut {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('https://img.icons8.com/emoji/50/astronaut.png') no-repeat center;
+  animation: float 8s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(20px, -30px) rotate(10deg); }
+}
+
+.holo-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.holo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 255, 255, 0.4);
+  border-color: rgba(0, 255, 255, 0.5);
+}
+
+.neon-button {
+  background: linear-gradient(90deg, #00f7ff, #ff00ff);
+  padding: 12px 24px;
+  border-radius: 9999px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.neon-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
+}
+
+.neon-button:hover::after {
+  left: 100%;
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+  border-color: #00f7ff;
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+}
+
+@keyframes textGlow {
+  0%, 100% { text-shadow: 0 0 5px #00f7ff; }
+  50% { text-shadow: 0 0 15px #00f7ff, 0 0 25px #ff00ff; }
+}

@@ -1,0 +1,2667 @@
+[
+  {
+    "phase": "Phase 1: Java Basics and Core Concepts",
+    "topics": [
+      {
+        "topic": "1. Introduction to Java Programming",
+        "subtopics": [
+          { "subtopic": "Installing Java (JDK, JRE)", "questionsData": [{
+      "type": "fill",
+      "question": "Python is an example of a __________ language, meaning it is executed line-by-line by an interpreter.",
+      "answer": "interpreted",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is true about Python compared to compiled languages?",
+      "options": [
+        "Python code is translated into machine code before execution.",
+        "Python code is executed line-by-line by an interpreter.",
+        "Python requires a separate compilation step to run."
+      ],
+      "answer": "Python code is executed line-by-line by an interpreter.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Python is a compiled language, meaning the entire program is converted into machine code before execution.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct statement about Python's execution:",
+      "options": ["line-by-line", "executed", "Python", "is", "code", "by", "an", "interpreter"],
+      "answer": ["Python", "code", "is", "executed", "line-by-line", "by", "an", "interpreter"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the main difference between Python and a compiled language like C++?",
+      "options": [
+        "Python requires an interpreter to run.",
+        "Python requires a compiler to run.",
+        "Python does not need any translation step."
+      ],
+      "answer": "Python requires an interpreter to run.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the language to whether it uses an interpreter or a compiler for execution:",
+      "options": [
+        { "term": "Python", "match": "Interpreter" },
+        { "term": "C++", "match": "Compiler" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are advantages of interpreted languages like Python? (Select all that apply)",
+      "options": [
+        "Easier to debug",
+        "Faster execution",
+        "Portability across different platforms"
+      ],
+      "answer": ["Easier to debug", "Portability across different platforms"],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for Python execution:",
+      "options": [
+        "Python code is written and saved in a .py file.",
+        "The interpreter reads and executes the code line-by-line.",
+        "The output is displayed on the screen."
+      ],
+      "correctOrder": [
+        "Python code is written and saved in a .py file.",
+        "The interpreter reads and executes the code line-by-line.",
+        "The output is displayed on the screen."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this statement about Python?\n\nPython code is compiled into machine code before execution.",
+      "options": [
+        "Python code is not compiled.",
+        "Python code is compiled into bytecode.",
+        "Python code is executed by an interpreter."
+      ],
+      "answer": "Python code is not compiled.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the code to demonstrate Python's execution process.\n\nOutput: `Python is an interpreted language!`",
+      "answer": "print(\"Python is an interpreted language!\")",
+      "component": "FillInTheBlank"
+    }] },
+          { "subtopic": "Setting up the IDE (IntelliJ IDEA, Eclipse, or VS Code)", "questionsData": [] },
+          { "subtopic": "Writing your first Java program: Hello, World!", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The entry point of a Java program is the __________ method, which must be defined inside a class.",
+      "answer": "main",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct syntax for the main method in a Java program?",
+      "options": [
+        "public void main(String args)",
+        "public static void main(String[] args)",
+        "void main(String[] args)"
+      ],
+      "answer": "public static void main(String[] args)",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "In Java, every program must have at least one class.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java Hello, World! program:",
+      "options": ["void", "public", "main", "String[]", "static", "args", "System.out.println(\"Hello, World!\");"],
+      "answer": ["public", "static", "void", "main", "String[]", "args", "System.out.println(\"Hello, World!\");"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nSystem.out.println(\"Hello, World!\");",
+      "options": [
+        "Prints \"Hello, World!\" to the console.",
+        "Takes input from the user.",
+        "Displays an error."
+      ],
+      "answer": "Prints \"Hello, World!\" to the console.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java code with its correct output:",
+      "options": [
+        { "term": "System.out.println(\"Welcome to Java!\");", "match": "Welcome to Java!" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about Java are true? (Select all that apply)",
+      "options": [
+        "Java programs must be compiled before execution.",
+        "Java runs directly on the operating system without an interpreter.",
+        "Java code runs on the Java Virtual Machine (JVM)."
+      ],
+      "answer": ["Java programs must be compiled before execution.", "Java code runs on the Java Virtual Machine (JVM)."],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for executing a Java program:",
+      "options": [
+        "Write the Java program in a .java file.",
+        "Compile the program using javac.",
+        "Run the program using java."
+      ],
+      "correctOrder": [
+        "Write the Java program in a .java file.",
+        "Compile the program using javac.",
+        "Run the program using java."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java program?\n\nclass HelloWorld {\n    public void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+      "options": [
+        "The main method should be static.",
+        "The main method should return an integer.",
+        "Java does not use class keywords."
+      ],
+      "answer": "The main method should be static.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to print \"Hello, World!\".\n\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.____(\"Hello, World!\");\n    }\n}",
+      "answer": "println",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Java syntax, keywords, and comments", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, every statement must end with a __________.",
+      "answer": "semicolon",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is a valid Java keyword?",
+      "options": [
+        "function",
+        "static",
+        "method"
+      ],
+      "answer": "static",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Java is a case-sensitive language, meaning Variable and variable are considered different identifiers.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a valid Java statement:",
+      "options": ["int", "=", "number", "10", ";"],
+      "answer": ["int", "number", "=", "10", ";"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\n// This is a single-line comment",
+      "options": [
+        "Executes a command",
+        "Adds a comment that is ignored by the compiler",
+        "Declares a variable"
+      ],
+      "answer": "Adds a comment that is ignored by the compiler",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java comment type to its correct syntax:",
+      "options": [
+        { "term": "Single-line comment", "match": "// This is a comment" },
+        { "term": "Multi-line comment", "match": "/* This is a multi-line comment */" },
+        { "term": "Documentation comment", "match": "/** This is a documentation comment */" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are Java keywords? (Select all that apply)",
+      "options": [
+        "public",
+        "class",
+        "define"
+      ],
+      "answer": ["public", "class"],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following Java keywords in a correct class declaration:",
+      "options": [
+        "public",
+        "class",
+        "Main",
+        "{ }"
+      ],
+      "correctOrder": [
+        "public",
+        "class",
+        "Main",
+        "{ }"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java statement?\n\nint number = 10",
+      "options": [
+        "Missing semicolon (;) at the end",
+        "int should be Integer",
+        "number is a reserved keyword"
+      ],
+      "answer": "Missing semicolon (;) at the end",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java program to correctly print \"Hello, Java!\".\n\npublic class HelloJava {\n    public static void main(String[] args) {\n        System.out.____(\"Hello, Java!\");\n    }\n}",
+      "answer": "println",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Understanding the Java Virtual Machine (JVM)", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The Java Virtual Machine (JVM) is responsible for converting __________ into machine code for execution.",
+      "answer": "bytecode",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the primary function of the JVM in Java?",
+      "options": [
+        "Converts Java source code directly into machine code",
+        "Interprets and executes Java bytecode",
+        "Compiles Java code into an executable file"
+      ],
+      "answer": "Interprets and executes Java bytecode",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The JVM is platform-independent, meaning the same Java program can run on different operating systems without modification.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct statement about the JVM:\n\nJava, executed, bytecode, JVM, is, by",
+      "options": ["Java", "executed", "bytecode", "JVM", "is", "by"],
+      "answer": ["Java", "bytecode", "is", "executed", "by", "JVM"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java command do?\n\njava MyProgram",
+      "options": [
+        "Compiles the Java program",
+        "Runs the compiled Java program on the JVM",
+        "Converts Java code into bytecode"
+      ],
+      "answer": "Runs the compiled Java program on the JVM",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the JVM process with its correct description:",
+      "options": [
+        { "term": "Compilation", "match": "Translates Java source code into bytecode" },
+        { "term": "Interpretation", "match": "Converts bytecode into machine code at runtime" },
+        { "term": "Garbage Collection", "match": "Reclaims memory used by unused objects" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about the JVM are true? (Select all that apply)",
+      "options": [
+        "JVM converts Java source code directly into machine code.",
+        "JVM executes Java bytecode.",
+        "JVM provides memory management through garbage collection."
+      ],
+      "answer": [
+        "JVM executes Java bytecode.",
+        "JVM provides memory management through garbage collection."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order of Java program execution:",
+      "options": [
+        "Write Java code and save it as .java file",
+        "Compile using javac to generate .class file",
+        "Execute the .class file using JVM"
+      ],
+      "correctOrder": [
+        "Write Java code and save it as .java file",
+        "Compile using javac to generate .class file",
+        "Execute the .class file using JVM"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java execution command?\n\njavac MyProgram",
+      "options": [
+        "Missing .java file extension",
+        "Incorrect command for running the program",
+        "javac is not required in Java execution"
+      ],
+      "answer": "Missing .java file extension",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "The __________ is a component of the JVM responsible for improving performance by converting bytecode into native machine code at runtime.",
+      "answer": "Just-In-Time (JIT) Compiler",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      },
+      {
+        "topic": "2. Basic Data Types and Variables",
+        "subtopics": [
+          { "subtopic": "Primitive data types: int, double, char, boolean", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The __________ data type in Java is used to store whole numbers without decimals.",
+      "answer": "int",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which data type is best for storing decimal values in Java?",
+      "options": [
+        "int",
+        "char",
+        "double",
+        "boolean"
+      ],
+      "answer": "double",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The char data type in Java can store multiple characters at once.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct statement about Java data types:\n\nused, numbers, double, decimal, for, is",
+      "options": ["used", "numbers", "double", "decimal", "for", "is"],
+      "answer": ["double", "is", "used", "for", "decimal", "numbers"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint x = 10;\ndouble y = 5.5;\nSystem.out.println(x + y);",
+      "options": [
+        "Prints 15.5 to the console",
+        "Throws a compilation error",
+        "Prints 105.5 as a string"
+      ],
+      "answer": "Prints 15.5 to the console",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java data type with an example value:",
+      "options": [
+        { "term": "int", "match": "100" },
+        { "term": "double", "match": "3.14" },
+        { "term": "char", "match": "'A'" },
+        { "term": "boolean", "match": "true" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are valid primitive data types in Java? (Select all that apply)",
+      "options": [
+        "int",
+        "String",
+        "boolean",
+        "double"
+      ],
+      "answer": [
+        "int",
+        "boolean",
+        "double"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following Java statements in the correct order to declare and print a char variable:",
+      "options": [
+        "System.out.println(letter);",
+        "char letter = 'B';"
+      ],
+      "correctOrder": [
+        "char letter = 'B';",
+        "System.out.println(letter);"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java declaration?\n\nboolean status = \"true\";",
+      "options": [
+        "boolean values must be enclosed in double quotes.",
+        "boolean can only store true or false without quotes.",
+        "The assignment operator = is incorrect."
+      ],
+      "answer": "boolean can only store true or false without quotes.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "The __________ data type is used to store a single character, such as 'A' or 'Z'.",
+      "answer": "char",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Variables and constants (final keyword)", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, a variable that cannot be changed after being assigned is declared using the __________ keyword.",
+      "answer": "final",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What happens when you try to reassign a value to a final variable in Java?",
+      "options": [
+        "The value gets updated successfully.",
+        "The program compiles but throws a runtime error.",
+        "A compilation error occurs.",
+        "The variable becomes static."
+      ],
+      "answer": "A compilation error occurs.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "In Java, all variables declared using the final keyword must be initialized at the time of declaration.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java statement for declaring a constant variable:\n\n10, =, final, int, MAX_VALUE",
+      "options": ["10", "=", "final", "int", "MAX_VALUE"],
+      "answer": ["final", "int", "MAX_VALUE", "=", "10"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nfinal double PI = 3.14159;\nSystem.out.println(PI);",
+      "options": [
+        "Declares a constant PI and prints its value.",
+        "Causes a compilation error due to incorrect syntax.",
+        "Assigns a new value to PI and prints it."
+      ],
+      "answer": "Declares a constant PI and prints its value.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java code with its correct output:\n\nfinal int SPEED_LIMIT = 60;\nSystem.out.println(SPEED_LIMIT);",
+      "options": [
+        { "term": "final int SPEED_LIMIT = 60; System.out.println(SPEED_LIMIT);", "match": "60" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about variables and constants in Java are true?",
+      "options": [
+        "Variables declared with final cannot be reassigned.",
+        "final variables must always be assigned a value when declared.",
+        "Constants in Java are typically written in uppercase letters.",
+        "Java allows modifying the value of a final variable after compilation."
+      ],
+      "answer": [
+        "Variables declared with final cannot be reassigned.",
+        "Constants in Java are typically written in uppercase letters."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order to declare and use a constant in Java:",
+      "options": [
+        "Declare a final variable.",
+        "Assign a value to the variable.",
+        "Use the variable in a print statement."
+      ],
+      "correctOrder": [
+        "Declare a final variable.",
+        "Assign a value to the variable.",
+        "Use the variable in a print statement."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\nfinal int number;\nnumber = 100;\nnumber = 200;\nSystem.out.println(number);",
+      "options": [
+        "The variable number should not be final.",
+        "The final variable is reassigned after initialization, causing an error.",
+        "The print statement is incorrect."
+      ],
+      "answer": "The final variable is reassigned after initialization, causing an error.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to declare a constant representing the value of gravity:\n\npublic class Physics {\n    public static void main(String[] args) {\n        final double GRAVITY = _____;\n        System.out.println(GRAVITY);\n    }\n}",
+      "answer": "9.8",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Type casting: implicit and explicit", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, converting a smaller data type to a larger one automatically is called __________ type casting.",
+      "answer": "implicit",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is an example of explicit type casting in Java?",
+      "options": [
+        "int num = 10.5;",
+        "double d = 10;",
+        "int num = (int) 10.5;",
+        "float f = 5;"
+      ],
+      "answer": "int num = (int) 10.5;",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Implicit type casting in Java may cause data loss.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java statement for explicit type casting:\n\n(int), 3.14, double, =, num, ;, int",
+      "options": ["(int)", "3.14", "double", "=", "num", ";", "int"],
+      "answer": ["int", "num", "=", "(int)", "3.14", ";"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\ndouble d = 20.99;\nint num = (int) d;\nSystem.out.println(num);",
+      "options": [
+        "Prints 20.99 to the console.",
+        "Causes a compilation error.",
+        "Converts d to an integer and prints 20."
+      ],
+      "answer": "Converts d to an integer and prints 20.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java code with its correct output:\n\nint num = 10;\ndouble d = num;\nSystem.out.println(d);",
+      "options": [
+        { "term": "int num = 10; double d = num; System.out.println(d);", "match": "10.0" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about type casting in Java are true? (Select all that apply)",
+      "options": [
+        "Implicit casting happens when a smaller data type is assigned to a larger one.",
+        "Explicit casting is needed when converting from double to int.",
+        "Type casting allows Java to handle different data types efficiently.",
+        "Explicit type casting can be done without losing data."
+      ],
+      "answer": [
+        "Implicit casting happens when a smaller data type is assigned to a larger one.",
+        "Explicit casting is needed when converting from double to int.",
+        "Type casting allows Java to handle different data types efficiently."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following steps in the correct order for performing explicit type casting in Java:",
+      "options": [
+        "Declare a variable of a larger data type (e.g., double).",
+        "Use explicit casting by placing the target data type in parentheses.",
+        "Store the result in a variable of a smaller data type (e.g., int)."
+      ],
+      "correctOrder": [
+        "Declare a variable of a larger data type (e.g., double).",
+        "Use explicit casting by placing the target data type in parentheses.",
+        "Store the result in a variable of a smaller data type (e.g., int)."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\ndouble d = 5.99;\nint num = d;\nSystem.out.println(num);",
+      "options": [
+        "The variable num should be declared as double.",
+        "double cannot be assigned to int directly without explicit casting.",
+        "The print statement is incorrect."
+      ],
+      "answer": "double cannot be assigned to int directly without explicit casting.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to perform implicit type casting:\n\nint num = 100;\ndouble d = _____;\nSystem.out.println(d);",
+      "answer": "num",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Variable naming conventions", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, a variable name cannot start with a __________.",
+      "answer": "number",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is a valid variable name in Java?",
+      "options": [
+        "2value",
+        "my_variable",
+        "class"
+      ],
+      "answer": "my_variable",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Java variable names are case-sensitive.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a valid Java variable name:\n\nage, _, user",
+      "options": ["age", "_", "user"],
+      "answer": ["user", "_", "age"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is wrong with the following Java code?\n\nint 1stNumber = 10;",
+      "options": [
+        "Variable names cannot start with a number.",
+        "The semicolon is missing.",
+        "int is not a valid data type."
+      ],
+      "answer": "Variable names cannot start with a number.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the variable declaration with its validity:",
+      "options": [
+        { "term": "int myVar = 10;", "match": "Valid" },
+        { "term": "double $amount = 25.50;", "match": "Valid" },
+        { "term": "String 1name = \"John\";", "match": "Invalid" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are valid Java variable names? (Select all that apply)",
+      "options": [
+        "_totalAmount",
+        "break",
+        "value123"
+      ],
+      "answer": [
+        "_totalAmount",
+        "value123"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following variable naming rules in the correct order of priority:",
+      "options": [
+        "Cannot use Java reserved keywords.",
+        "Must begin with a letter, underscore (_), or dollar sign ($).",
+        "Cannot contain spaces or special characters except _ and $."
+      ],
+      "correctOrder": [
+        "Must begin with a letter, underscore (_), or dollar sign ($).",
+        "Cannot contain spaces or special characters except _ and $.",
+        "Cannot use Java reserved keywords."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java variable declaration?\n\nint double = 50;",
+      "options": [
+        "Variable names cannot start with a number.",
+        "double is a reserved keyword.",
+        "Variables must end with a semicolon."
+      ],
+      "answer": "double is a reserved keyword.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the variable declaration in Java:\n\n______ myNumber = 25;",
+      "answer": "int",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      },
+      {
+        "topic": "3. Operators and Expressions",
+        "subtopics": [
+          { "subtopic": "Arithmetic operators: +, -, *, /, %", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The arithmetic operator used to find the remainder of a division operation in Java is __________.",
+      "answer": "%",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the result of the following Java expression?\n\nint result = 10 / 3;\nSystem.out.println(result);",
+      "options": [
+        "3.33",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "In Java, the / operator always returns an integer result when both operands are integers.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the symbols to form a valid arithmetic expression:\n\n+, 5, *, 3, 2, -, 4",
+      "options": ["+", "5", "*", "3", "2", "-", "4"],
+      "answer": ["5", "+", "3", "*", "2", "-", "4"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code output?\n\nSystem.out.println(15 % 4);",
+      "options": [
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "3",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expressions with their correct output:",
+      "options": [
+        { "term": "10 + 5 * 2", "match": "20" },
+        { "term": "20 / 4 - 2", "match": "3" },
+        { "term": "15 % 4", "match": "3" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following arithmetic operations in Java will return 2? (Select all that apply)",
+      "options": [
+        "10 / 5",
+        "5 - 3",
+        "8 % 3"
+      ],
+      "answer": [
+        "10 / 5",
+        "5 - 3"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the arithmetic operations in order of precedence (from highest to lowest priority):",
+      "options": [
+        "Multiplication (*), Division (/), Modulus (%)",
+        "Addition (+), Subtraction (-)"
+      ],
+      "correctOrder": [
+        "Multiplication (*), Division (/), Modulus (%)",
+        "Addition (+), Subtraction (-)"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java arithmetic expression?\n\nint result = 10 / 4.0;",
+      "options": [
+        "The division operator cannot be used in Java.",
+        "Mixing integer and floating-point values requires explicit type conversion.",
+        "The modulo operator should be used instead."
+      ],
+      "answer": "Mixing integer and floating-point values requires explicit type conversion.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to store the result of multiplying 6 and 7 in a variable:\n\nint result = 6 _____ 7;",
+      "answer": "*",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Comparison operators: ==, !=, >, <, >=, <=", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The comparison operator used to check if two values are not equal in Java is __________.",
+      "answer": "!=",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the output of the following Java expression?\n\nSystem.out.println(10 > 5);",
+      "options": [
+        "true",
+        "false",
+        "error"
+      ],
+      "answer": "true",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The comparison operator == is used to compare two values for equality in Java.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the symbols to form valid comparison expressions:\n\n5, ==, 10, <, 7, >, 3",
+      "options": ["5", "==", "10", "<", "7", ">", "3"],
+      "answer": ["5", ">", "3"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code output?\n\nSystem.out.println(20 <= 15);",
+      "options": [
+        "true",
+        "false",
+        "error"
+      ],
+      "answer": "false",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expressions with their correct output:",
+      "options": [
+        { "term": "8 == 8", "match": "true" },
+        { "term": "5 != 5", "match": "false" },
+        { "term": "10 > 2", "match": "true" },
+        { "term": "15 <= 10", "match": "false" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following comparison operations in Java will return true?",
+      "options": [
+        "7 != 8",
+        "10 > 20",
+        "5 <= 5"
+      ],
+      "answer": [
+        "7 != 8",
+        "5 <= 5"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following comparisons in increasing order of truth values (from false to true):",
+      "options": [
+        "10 < 5",
+        "20 >= 20",
+        "15 != 10"
+      ],
+      "correctOrder": [
+        "10 < 5",
+        "15 != 10",
+        "20 >= 20"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java comparison expression?\n\nif (a = 10) {\n    System.out.println(\"Equal to 10\");\n}",
+      "options": [
+        "= should be == for comparison.",
+        "if statements do not support conditions.",
+        "10 should be a variable."
+      ],
+      "answer": "= should be == for comparison.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to check if x is greater than y:\n\nif (x _____ y) {\n    System.out.println(\"x is greater\");\n}",
+      "answer": ">",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Logical operators: &&, ||, !", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The logical AND operator in Java is represented by __________.",
+      "answer": "&&",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the output of the following Java expression?\n\nSystem.out.println(true && false);",
+      "options": [
+        "true",
+        "false",
+        "Compilation error"
+      ],
+      "answer": "false",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The logical OR (||) operator returns true if at least one of the conditions is true.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the following words to form a valid Java statement that checks if both conditions are true:\n\nisRaining, temperature, <, 10, &&, needUmbrella, =, true",
+      "options": ["isRaining", "temperature", "<", "10", "&&", "needUmbrella", "=", "true"],
+      "answer": ["needUmbrella", "=", "isRaining", "&&", "temperature", "<", "10"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nSystem.out.println(!true);",
+      "options": [
+        "Prints true",
+        "Prints false",
+        "Compilation error"
+      ],
+      "answer": "Prints false",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expression with its correct output:\n\nSystem.out.println(true || false);",
+      "options": [
+        { "term": "true || false", "match": "true" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about logical operators in Java are true? (Select all that apply)",
+      "options": [
+        "&& returns true only if both conditions are true.",
+        "|| returns false if either condition is false.",
+        "! negates the boolean value."
+      ],
+      "answer": [
+        "&& returns true only if both conditions are true.",
+        "! negates the boolean value."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following logical expressions in order from true to false:",
+      "options": [
+        "true || false",
+        "true && false",
+        "!(true && true)"
+      ],
+      "correctOrder": [
+        "true || false",
+        "true && false",
+        "!(true && true)"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\nif (x && y) {\n    System.out.println(\"Both are true\");\n}",
+      "options": [
+        "&& cannot be used with non-boolean values.",
+        "The if statement requires parentheses.",
+        "Java does not support logical operators."
+      ],
+      "answer": "&& cannot be used with non-boolean values.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to check if age is greater than 18 OR the user has a membership:\n\nif (age > 18 ____ hasMembership) {\n    System.out.println(\"Access granted\");\n}",
+      "answer": "||",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Assignment operators: =, +=, -=, *=, /=", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The assignment operator in Java used to add a value to a variable and store the result in the same variable is __________.",
+      "answer": "+=",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the output of the following Java code?\n\nint x = 5;\nx += 3;\nSystem.out.println(x);",
+      "options": [
+        "5",
+        "3",
+        "8"
+      ],
+      "answer": "8",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The /= operator in Java is used to divide the variable's value by another number and assign the result back to the variable.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the following words to form a correct Java statement that multiplies a variable by 2 using an assignment operator:\n\nnumber, *=, 2, int",
+      "options": ["number", "*=", "2", "int"],
+      "answer": ["int", "number", "*=", "2"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint a = 10;\na -= 4;\nSystem.out.println(a);",
+      "options": [
+        "Prints 10",
+        "Prints 6",
+        "Prints 4"
+      ],
+      "answer": "Prints 6",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expression with its correct output:\n\nint x = 12;\nx /= 3;\nSystem.out.println(x);",
+      "options": [
+        { "term": "int x = 12; x /= 3; System.out.println(x);", "match": "4" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about assignment operators in Java are true? (Select all that apply)",
+      "options": [
+        "x += y is equivalent to x = x + y.",
+        "x -= y is the same as x = y - x.",
+        "x *= y multiplies x by y and stores the result in x."
+      ],
+      "answer": [
+        "x += y is equivalent to x = x + y.",
+        "x *= y multiplies x by y and stores the result in x."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following assignment operations in order from the largest resulting value to the smallest, assuming x = 10 initially:",
+      "options": [
+        "x += 5",
+        "x *= 2",
+        "x -= 3"
+      ],
+      "correctOrder": [
+        "x *= 2",
+        "x += 5",
+        "x -= 3"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\nint y = 5;\ny +== 2;\nSystem.out.println(y);",
+      "options": [
+        "The += operator should not have two equal signs.",
+        "The += operator cannot be used with integers.",
+        "Java does not allow assignment operators."
+      ],
+      "answer": "The += operator should not have two equal signs.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to subtract 10 from total using an assignment operator:\n\ntotal ____ 10;",
+      "answer": "-=",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Ternary operator: ? :", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The ternary operator in Java is represented by the symbols __________.",
+      "answer": "?:",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the output of the following Java code?\n\nint a = 10, b = 20;\nint min = (a < b) ? a : b;\nSystem.out.println(min);",
+      "options": [
+        "10",
+        "20",
+        "30"
+      ],
+      "answer": "10",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The ternary operator in Java is a shorthand for an if-else statement.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct ternary operator statement in Java:\n\ny, x, =, ?, :, 5, 10, <, 3",
+      "options": ["y", "x", "=", "?", ":", "5", "10", "<", "3"],
+      "answer": ["x", "=", "(", "y", "<", "3", ")", "?", "5", ":", "10"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint num = 7;\nString result = (num % 2 == 0) ? \"Even\" : \"Odd\";\nSystem.out.println(result);",
+      "options": [
+        "Prints \"Even\"",
+        "Prints \"Odd\"",
+        "Throws an error"
+      ],
+      "answer": "Prints \"Odd\"",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expression with its correct output:\n\nint age = 18;\nString status = (age >= 18) ? \"Adult\" : \"Minor\";\nSystem.out.println(status);",
+      "options": [
+        { "term": "int age = 18; String status = (age >= 18) ? \"Adult\" : \"Minor\"; System.out.println(status);", "match": "\"Adult\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about the ternary operator are true? (Select all that apply)",
+      "options": [
+        "It is a replacement for if-else statements.",
+        "It can have multiple conditions chained together.",
+        "It always requires three operands."
+      ],
+      "answer": [
+        "It is a replacement for if-else statements.",
+        "It always requires three operands."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the parts of the ternary operator in the correct order for execution:",
+      "options": [
+        "condition",
+        "expression if true",
+        "expression if false"
+      ],
+      "correctOrder": [
+        "condition",
+        "expression if true",
+        "expression if false"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\nint max;\nint a = 5, b = 10;\nmax = (a > b) ? a, b;\nSystem.out.println(max);",
+      "options": [
+        "The ternary operator should have a : instead of a ,.",
+        "The ternary operator requires only two operands.",
+        "Java does not support the ternary operator."
+      ],
+      "answer": "The ternary operator should have a : instead of a ,.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to check if a number is positive using the ternary operator:\n\nString result = (num > 0) ? \"Positive\" : ________;",
+      "answer": "\"Negative\"",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      },
+      {
+        "topic": "4. Control Flow: Conditionals and Loops",
+        "subtopics": [
+          { "subtopic": "Conditionals: if, else if, else", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, the if statement is used to execute a block of code only if the given __________ evaluates to true.",
+      "answer": "condition",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will be the output of the following Java code?\n\nint x = 10;\nif (x > 5) {\n    System.out.println(\"Greater\");\n} else {\n    System.out.println(\"Smaller\");\n}",
+      "options": [
+        "Greater",
+        "Smaller",
+        "No output"
+      ],
+      "answer": "Greater",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The else block in an if-else statement is mandatory.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java if-else statement:\n\nif, x, else, System.out.println(\"Odd\");, System.out.println(\"Even\");, % 2 == 0, ()",
+      "options": ["if", "x", "else", "System.out.println(\"Odd\");", "System.out.println(\"Even\");", "% 2 == 0", "()"],
+      "answer": ["if", "(", "x", "% 2 == 0", ")", "{", "System.out.println(\"Even\");", "}", "else", "{", "System.out.println(\"Odd\");", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint age = 18;\nif (age >= 18) {\n    System.out.println(\"Eligible to vote\");\n} else {\n    System.out.println(\"Not eligible to vote\");\n}",
+      "options": [
+        "Prints \"Eligible to vote\" if age is 18 or more",
+        "Always prints \"Not eligible to vote\"",
+        "Throws a compilation error"
+      ],
+      "answer": "Prints \"Eligible to vote\" if age is 18 or more",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java expression with its correct output:\n\nint num = -5;\nif (num > 0) {\n    System.out.println(\"Positive\");\n} else if (num < 0) {\n    System.out.println(\"Negative\");\n} else {\n    System.out.println(\"Zero\");\n}",
+      "options": [
+        { "term": "int num = -5; if (num > 0) { System.out.println(\"Positive\"); } else if (num < 0) { System.out.println(\"Negative\"); } else { System.out.println(\"Zero\"); }", "match": "\"Negative\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about if-else are true? (Select all that apply)",
+      "options": [
+        "The if statement must always be followed by an else.",
+        "Multiple else if statements can be used in a single conditional block.",
+        "The if statement executes only if the condition is true."
+      ],
+      "answer": [
+        "Multiple else if statements can be used in a single conditional block.",
+        "The if statement executes only if the condition is true."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following Java statements in the correct order for execution:",
+      "options": [
+        "if condition is checked.",
+        "If true, the corresponding block executes.",
+        "If false, it moves to the else if (if present).",
+        "If all conditions fail, the else block executes."
+      ],
+      "correctOrder": [
+        "if condition is checked.",
+        "If true, the corresponding block executes.",
+        "If false, it moves to the else if (if present).",
+        "If all conditions fail, the else block executes."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java code?\n\nint x = 10;\nif x > 5 {\n    System.out.println(\"Greater\");\n} else {\n    System.out.println(\"Smaller\");\n}",
+      "options": [
+        "if condition should be enclosed in parentheses.",
+        "The else block is not required.",
+        "System.out.println cannot be used inside if."
+      ],
+      "answer": "if condition should be enclosed in parentheses.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to check if a number is positive, negative, or zero:\n\nif (num > 0) {\n    System.out.println(\"Positive\");\n} else if (num < 0) {\n    System.out.println(\"________\");\n} else {\n    System.out.println(\"Zero\");\n}",
+      "answer": "\"Negative\"",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Switch-case statements", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The switch statement in Java evaluates an __________ and executes the corresponding case block.",
+      "answer": "expression",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is required at the end of each case in a switch statement to prevent fall-through?",
+      "options": [
+        "continue",
+        "break",
+        "exit"
+      ],
+      "answer": "break",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The default case in a switch statement is optional.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java switch-case statement:\n\nswitch, case, default, break, x, 1, System.out.println(\"One\"), 2, System.out.println(\"Two\")",
+      "options": ["switch", "case", "default", "break", "x", "1", "System.out.println(\"One\")", "2", "System.out.println(\"Two\")"],
+      "answer": ["switch", "(", "x", ")", "{", "case", "1", ":", "System.out.println(\"One\")", "break", "case", "2", ":", "System.out.println(\"Two\")", "break", "default", ":", "System.out.println(\"Other\")", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint day = 3;\nswitch (day) {\n    case 1:\n        System.out.println(\"Monday\");\n        break;\n    case 2:\n        System.out.println(\"Tuesday\");\n        break;\n    case 3:\n        System.out.println(\"Wednesday\");\n        break;\n    default:\n        System.out.println(\"Invalid Day\");\n}",
+      "options": [
+        "Prints \"Monday\"",
+        "Prints \"Wednesday\"",
+        "Prints \"Invalid Day\""
+      ],
+      "answer": "Prints \"Wednesday\"",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java switch expression with its correct output:\n\nint num = 5;\nswitch (num) {\n    case 1:\n        System.out.println(\"One\");\n        break;\n    case 5:\n        System.out.println(\"Five\");\n        break;\n    default:\n        System.out.println(\"Other\");\n}",
+      "options": [
+        { "term": "int num = 5; switch (num) { case 1: System.out.println(\"One\"); break; case 5: System.out.println(\"Five\"); break; default: System.out.println(\"Other\"); }", "match": "\"Five\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about switch-case are true? (Select all that apply)",
+      "options": [
+        "The switch statement can only evaluate integers.",
+        "The default case is executed if no case matches.",
+        "Omitting break in a case will cause fall-through behavior."
+      ],
+      "answer": [
+        "The default case is executed if no case matches.",
+        "Omitting break in a case will cause fall-through behavior."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for a switch-case statement execution:",
+      "options": [
+        "The switch expression is evaluated.",
+        "The matching case block executes.",
+        "If no match is found, the default case executes (if present).",
+        "The break statement prevents fall-through."
+      ],
+      "correctOrder": [
+        "The switch expression is evaluated.",
+        "The matching case block executes.",
+        "The break statement prevents fall-through.",
+        "If no match is found, the default case executes (if present)."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java switch statement?\n\nswitch (day) {\n    case \"Monday\":\n        System.out.println(\"Start of the week\");\n        break;\n    case \"Friday\":\n        System.out.println(\"Weekend is near\");\n        break;\n    default:\n        System.out.println(\"Another day\");\n}",
+      "options": [
+        "Strings cannot be used in switch.",
+        "The case values must be enclosed in double quotes.",
+        "A break statement is required after default."
+      ],
+      "answer": "Strings cannot be used in switch.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to check a number and print its corresponding day:\n\nswitch (day) {\n    case 1:\n        System.out.println(\"Monday\");\n        break;\n    case 2:\n        System.out.println(\"________\");\n        break;\n    default:\n        System.out.println(\"Invalid\");\n}",
+      "answer": "\"Tuesday\"",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "for loops", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The for loop consists of three parts: initialization, __________, and update.",
+      "answer": "condition",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is a correct syntax for a for loop in Java?",
+      "options": [
+        "for (int i = 0; i < 5; i++)",
+        "for (i = 0, i < 5, i++)",
+        "for (int i = 0; i < 5; i++) { }"
+      ],
+      "answer": "for (int i = 0; i < 5; i++) { }",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "In a for loop, the loop variable is always incremented.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java for loop:\n\nfor, i, 0, 10, i++, int, System.out.println(i);",
+      "options": ["for", "i", "0", "10", "i++", "int", "System.out.println(i);"],
+      "answer": ["for", "(", "int", "i", "=", "0", ";", "i", "<", "10", ";", "i++", ")", "{", "System.out.println(i);", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nfor (int i = 1; i <= 5; i++) {\n    System.out.print(i + \" \");\n}",
+      "options": [
+        "Prints 1 2 3 4 5",
+        "Prints 5 4 3 2 1",
+        "Prints 1 3 5"
+      ],
+      "answer": "Prints 1 2 3 4 5",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java for loop with its correct output:\n\nfor (int i = 5; i > 0; i--) {\n    System.out.print(i + \" \");\n}",
+      "options": [
+        { "term": "for (int i = 5; i > 0; i--) { System.out.print(i + \" \"); }", "match": "\"5 4 3 2 1 \"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about for loops are true? (Select all that apply)",
+      "options": [
+        "A for loop always runs at least once.",
+        "The loop variable must be an integer.",
+        "The update expression can decrement the variable."
+      ],
+      "answer": [
+        "The update expression can decrement the variable."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for a for loop execution:",
+      "options": [
+        "The initialization statement executes.",
+        "The condition is checked.",
+        "The loop body runs if the condition is true.",
+        "The update expression executes.",
+        "Steps 2-4 repeat until the condition is false."
+      ],
+      "correctOrder": [
+        "The initialization statement executes.",
+        "The condition is checked.",
+        "The loop body runs if the condition is true.",
+        "The update expression executes.",
+        "Steps 2-4 repeat until the condition is false."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java for loop?\n\nfor (int i = 0; i < 5; i--)\n    System.out.println(i);",
+      "options": [
+        "The loop will run indefinitely.",
+        "i should be incremented instead of decremented.",
+        "The loop variable must be declared outside the loop."
+      ],
+      "answer": "The loop will run indefinitely.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to print even numbers from 2 to 10:\n\nfor (int i = 2; i <= 10; ______) {\n    System.out.println(i);\n}",
+      "answer": "i += 2",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "while and do-while loops", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In a while loop, the loop continues executing as long as the __________ is true.",
+      "answer": "condition",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the main difference between a while loop and a do-while loop?",
+      "options": [
+        "A while loop executes at least once, while a do-while loop may not execute at all.",
+        "A do-while loop executes at least once, while a while loop may not execute at all.",
+        "Both loops function the same way."
+      ],
+      "answer": "A do-while loop executes at least once, while a while loop may not execute at all.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "A do-while loop checks the condition before executing the loop body.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct while loop:\n\nwhile, (i, <, 5), System.out.println(i);, i++, { }",
+      "options": ["while", "(i", "<", "5)", "System.out.println(i);", "i++", "{", "}"],
+      "answer": ["while", "(", "i", "<", "5", ")", "{", "System.out.println(i);", "i++", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nint i = 1;\nwhile (i <= 3) {\n    System.out.print(i + \" \");\n    i++;\n}",
+      "options": [
+        "Prints 1 2 3",
+        "Prints 3 2 1",
+        "Runs indefinitely"
+      ],
+      "answer": "Prints 1 2 3",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java do-while loop with its correct output:\n\nint i = 5;\ndo {\n    System.out.print(i + \" \");\n    i--;\n} while (i > 0);",
+      "options": [
+        { "term": "int i = 5; do { System.out.print(i + \" \"); i--; } while (i > 0);", "match": "\"5 4 3 2 1 \"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about while and do-while loops are true? (Select all that apply)",
+      "options": [
+        "A do-while loop will always run at least once.",
+        "A while loop may not execute at all.",
+        "A while loop is always more efficient than a do-while loop."
+      ],
+      "answer": [
+        "A do-while loop will always run at least once.",
+        "A while loop may not execute at all."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for a do-while loop execution:",
+      "options": [
+        "Execute the loop body.",
+        "Check the condition.",
+        "Repeat if the condition is true.",
+        "Exit the loop if the condition is false."
+      ],
+      "correctOrder": [
+        "Execute the loop body.",
+        "Check the condition.",
+        "Repeat if the condition is true.",
+        "Exit the loop if the condition is false."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java while loop?\n\nint i = 0;\nwhile (i < 5);\n    System.out.println(i);\n    i++;",
+      "options": [
+        "The semicolon after while (i < 5); ends the loop prematurely.",
+        "The loop will run indefinitely.",
+        "The loop condition is incorrect."
+      ],
+      "answer": "The semicolon after while (i < 5); ends the loop prematurely.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to print numbers from 1 to 5 using a do-while loop:\n\nint i = 1;\ndo {\n    System.out.println(i);\n    _______;\n} while (i <= 5);",
+      "answer": "i++",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Loop control statements: break, continue", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The __________ statement is used to immediately terminate the loop and exit its execution.",
+      "answer": "break",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What happens when a continue statement is executed inside a loop?",
+      "options": [
+        "The loop terminates completely.",
+        "The current iteration is skipped, and the loop continues with the next iteration.",
+        "The program exits with an error."
+      ],
+      "answer": "The current iteration is skipped, and the loop continues with the next iteration.",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The break statement can only be used inside for loops.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct loop using break:\n\ni, while, 10, {, if, i == 5, break;, i++;, }, ( < )",
+      "options": ["i", "while", "10", "{", "if", "i == 5", "break;", "i++;", "}", "(", "<", ")"],
+      "answer": ["int", "i", "=", "0", ";", "while", "(", "i", "<", "10", ")", "{", "if", "(", "i", "==", "5", ")", "break;", "i++;", "}"], 
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nfor (int i = 1; i <= 5; i++) {\n    if (i == 3)\n        continue;\n    System.out.print(i + \" \");\n}",
+      "options": [
+        "Prints 1 2 3 4 5",
+        "Prints 1 2 4 5",
+        "Causes a compilation error"
+      ],
+      "answer": "Prints 1 2 4 5",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java loop with its correct output:\n\nfor (int i = 1; i <= 5; i++) {\n    if (i == 4)\n        break;\n    System.out.print(i + \" \");\n}",
+      "options": [
+        { "term": "for (int i = 1; i <= 5; i++) { if (i == 4) break; System.out.print(i + \" \"); }", "match": "\"1 2 3 \"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about break and continue are true? (Select all that apply)",
+      "options": [
+        "break exits the loop completely.",
+        "continue skips the remaining statements in the current iteration.",
+        "continue can be used in switch statements."
+      ],
+      "answer": [
+        "break exits the loop completely.",
+        "continue skips the remaining statements in the current iteration."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the sequence of events when a continue statement is encountered inside a loop:",
+      "options": [
+        "The condition is checked.",
+        "The loop enters the iteration.",
+        "The continue statement is executed.",
+        "The remaining code in that iteration is skipped.",
+        "The loop proceeds to the next iteration."
+      ],
+      "correctOrder": [
+        "The condition is checked.",
+        "The loop enters the iteration.",
+        "The continue statement is executed.",
+        "The remaining code in that iteration is skipped.",
+        "The loop proceeds to the next iteration."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following Java for loop?\n\nfor (int i = 1; i <= 5; i++) {\n    if (i == 3)\n        break;\n    System.out.println(i);\n}\nSystem.out.println(\"Loop ended\");",
+      "options": [
+        "The break statement should be replaced with continue.",
+        "The loop does not execute properly because break stops it at i == 3.",
+        "The loop never terminates."
+      ],
+      "answer": "The loop does not execute properly because break stops it at i == 3.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code so that it skips printing 3 using continue:\n\nfor (int i = 1; i <= 5; i++) {\n    if (i == 3)\n        _______;\n    System.out.println(i);\n}",
+      "answer": "continue",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      },
+      {
+        "topic": "5. Functions (Methods)",
+        "subtopics": [
+          { "subtopic": "Defining methods using public, private, static", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The keyword __________ is used to define methods that can be accessed by any other class.",
+      "answer": "public",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which access modifier restricts the method's access only within the same class?",
+      "options": [
+        "public",
+        "private",
+        "protected"
+      ],
+      "answer": "private",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "A static method can access non-static instance variables directly.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct method definition with a public access modifier:\n\nint, return, public, add, (int a, int b), {, return a + b;, }",
+      "options": ["int", "return", "public", "add", "(int a, int b)", "{", "return a + b;", "}"],
+      "answer": ["public", "int", "add", "(int a, int b)", "{", "return", "a", "+", "b", ";", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\npublic static void greet() {\n    System.out.println(\"Hello!\");\n}\n\ngreet();",
+      "options": [
+        "Prints \"Hello!\"",
+        "Causes a compilation error",
+        "Does nothing"
+      ],
+      "answer": "Prints \"Hello!\"",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java method with its correct output:\n\nprivate static int square(int x) {\n    return x * x;\n}\nSystem.out.println(square(4));",
+      "options": [
+        { "term": "private static int square(int x) { return x * x; } System.out.println(square(4));", "match": "16" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about method modifiers are true? (Select all that apply)",
+      "options": [
+        "static methods can access static members directly.",
+        "public methods are accessible from any class.",
+        "private methods can be accessed outside the class."
+      ],
+      "answer": [
+        "static methods can access static members directly.",
+        "public methods are accessible from any class."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for calling a static method:",
+      "options": [
+        "Define the method using the static keyword.",
+        "Use the class name to call the method.",
+        "Execute the method."
+      ],
+      "correctOrder": [
+        "Define the method using the static keyword.",
+        "Use the class name to call the method.",
+        "Execute the method."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following method definition?\n\nprivate static void display() {\n    System.out.println(\"Welcome\");\n}\ndisplay();",
+      "options": [
+        "The method should be public.",
+        "The method call should be inside the main() method.",
+        "static methods cannot print text."
+      ],
+      "answer": "The method call should be inside the main() method.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to define a public method named show() that prints \"Hello\":\n\npublic class Example {\n    _______ void show() {\n        System.out.println(\"Hello\");\n    }\n}",
+      "answer": "public",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Method parameters and return values", "questionsData": [
+    {
+      "type": "fill",
+      "question": "A method parameter is a __________ that is passed into the method when it is called.",
+      "answer": "variable",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the return type of the following Java method?\n\npublic int add(int a, int b) {\n    return a + b;\n}",
+      "options": [
+        "void",
+        "int",
+        "boolean"
+      ],
+      "answer": "int",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "A method with a void return type can return a value.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct method definition:\n\n(int a, int b), return, public, sum, int, {, return a + b;, }",
+      "options": ["(int a, int b)", "return", "public", "sum", "int", "{", "return a + b;", "}"],
+      "answer": ["public", "int", "sum", "(int a, int b)", "{", "return", "a", "+", "b", ";", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java method do?\n\npublic static int multiply(int x, int y) {\n    return x * y;\n}\nSystem.out.println(multiply(3, 4));",
+      "options": [
+        "Prints 12",
+        "Causes a compilation error",
+        "Prints 7"
+      ],
+      "answer": "Prints 12",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java method with its correct output:\n\npublic static String greet(String name) {\n    return \"Hello, \" + name + \"!\";\n}\nSystem.out.println(greet(\"Alice\"));",
+      "options": [
+        { "term": "public static String greet(String name) { return \"Hello, \" + name + \"!\"; } System.out.println(greet(\"Alice\"));", "match": "\"Hello, Alice!\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about method parameters and return values are true? (Select all that apply)",
+      "options": [
+        "A method can have multiple parameters.",
+        "A void method must return an integer.",
+        "A method can return any data type, including objects."
+      ],
+      "answer": [
+        "A method can have multiple parameters.",
+        "A method can return any data type, including objects."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for defining and calling a method with parameters and a return value:",
+      "options": [
+        "Define the method with parameters.",
+        "Implement the method body with a return statement.",
+        "Call the method and pass arguments.",
+        "Capture the return value in a variable."
+      ],
+      "correctOrder": [
+        "Define the method with parameters.",
+        "Implement the method body with a return statement.",
+        "Call the method and pass arguments.",
+        "Capture the return value in a variable."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following method definition?\n\npublic int getValue(int x) {\n    System.out.println(x);\n}",
+      "options": [
+        "The method should be static.",
+        "The method is missing a return statement.",
+        "The method should have no parameters."
+      ],
+      "answer": "The method is missing a return statement.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to return the sum of two integers:\n\npublic class Example {\n    public static int add(int a, int b) {\n        return a ____ b;\n    }\n}",
+      "answer": "+",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Method overloading", "questionsData": [
+    {
+      "type": "fill",
+      "question": "Method overloading in Java allows multiple methods to have the same name but different __________.",
+      "answer": "parameters",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following method signatures correctly demonstrate method overloading?",
+      "options": [
+        "public int sum(int a, int b); public double sum(int a, int b);",
+        "public int sum(int a, int b); public int sum(int a, int b, int c);",
+        "public void sum(int a, int b); public void sum(int x, int y);"
+      ],
+      "answer": "public int sum(int a, int b); public int sum(int a, int b, int c);",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Method overloading is possible only if the return type of the method is different.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form correct overloaded method definitions:\n\n{ return a + b;, public, int, sum, (int a, int b), }\n{ return a + b + c;, public, int, sum, (int a, int b, int c), }",
+      "options": ["{ return a + b;", "public", "int", "sum", "(int a, int b)", "}", "{ return a + b + c;", "public", "int", "sum", "(int a, int b, int c)", "}"],
+      "answer": ["public", "int", "sum", "(int a, int b)", "{", "return", "a", "+", "b", ";", "}", "public", "int", "sum", "(int a, int b, int c)", "{", "return", "a", "+", "b", "+", "c", ";", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\npublic class Example {\n    public static void print(int a) {\n        System.out.println(\"Integer: \" + a);\n    }\n\n    public static void print(double a) {\n        System.out.println(\"Double: \" + a);\n    }\n\n    public static void main(String[] args) {\n        print(5);\n        print(5.5);\n    }\n}",
+      "options": [
+        "Prints:\nInteger: 5\nDouble: 5.5",
+        "Compilation error",
+        "Prints:\nDouble: 5\nInteger: 5.5"
+      ],
+      "answer": "Prints:\nInteger: 5\nDouble: 5.5",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the Java method with its correct output:\n\npublic class Test {\n    public static void display(int a) {\n        System.out.println(\"Integer: \" + a);\n    }\n\n    public static void display(String b) {\n        System.out.println(\"String: \" + b);\n    }\n\n    public static void main(String[] args) {\n        display(10);\n        display(\"Java\");\n    }\n}",
+      "options": [
+        { "term": "public class Test { public static void display(int a) { System.out.println(\"Integer: \" + a); } public static void display(String b) { System.out.println(\"String: \" + b); } public static void main(String[] args) { display(10); display(\"Java\"); } }", "match": "\"Integer: 10\\nString: Java\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements about method overloading are true? (Select all that apply)",
+      "options": [
+        "Method overloading allows methods with the same name but different parameter lists.",
+        "Method overloading is only possible with different return types.",
+        "Method overloading helps improve code readability."
+      ],
+      "answer": [
+        "Method overloading allows methods with the same name but different parameter lists.",
+        "Method overloading helps improve code readability."
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for defining overloaded methods and calling them:",
+      "options": [
+        "Define multiple methods with the same name but different parameters.",
+        "Implement each method with a specific functionality.",
+        "Call the method by passing appropriate arguments.",
+        "Execute the program to check the output."
+      ],
+      "correctOrder": [
+        "Define multiple methods with the same name but different parameters.",
+        "Implement each method with a specific functionality.",
+        "Call the method by passing appropriate arguments.",
+        "Execute the program to check the output."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with the following method definitions?\n\npublic int multiply(int a, int b) {\n    return a * b;\n}\n\npublic double multiply(int a, int b) {\n    return a * b * 1.0;\n}",
+      "options": [
+        "The method names must be different.",
+        "The parameter list must be different for method overloading.",
+        "The methods should not return any value."
+      ],
+      "answer": "The parameter list must be different for method overloading.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to create an overloaded greet() method that takes a string and an integer:\n\npublic class Hello {\n    public static void greet(String name) {\n        System.out.println(\"Hello, \" + name);\n    }\n\n    public static void greet(____ age) {\n        System.out.println(\"You are \" + age + \" years old.\");\n    }\n}",
+      "answer": "int",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Recursion (optional for beginners)", "questionsData": [
+    {
+      "type": "fill",
+      "question": "Recursion is a technique where a function calls __________.",
+      "answer": "itself",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is required in a recursive function to prevent infinite recursion?",
+      "options": [
+        "A loop",
+        "A base case",
+        "A return statement",
+        "An if-else statement"
+      ],
+      "answer": "A base case",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "Every recursive function must have a base case.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct recursive function for calculating factorial:\n\n{ int, return, if, (n == 0), 1;, else, return, n * factorial(n - 1);, factorial, (int n) }",
+      "options": ["{ int", "return", "if", "(n == 0)", "1;", "else", "return", "n * factorial(n - 1);", "factorial", "(int n)", "}"],
+      "answer": ["int", "factorial", "(int n)", "{", "if", "(n == 0)", "return", "1", ";", "else", "return", "n", "*", "factorial(n - 1)", ";", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java function do?\n\npublic static int sum(int n) {\n    if (n == 1) return 1;\n    return n + sum(n - 1);\n}",
+      "options": [
+        "Returns the sum of numbers from 1 to n",
+        "Returns n itself",
+        "Computes factorial"
+      ],
+      "answer": "Returns the sum of numbers from 1 to n",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the function call with its correct output:\n\npublic static int fibonacci(int n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}",
+      "options": [
+        { "term": "fibonacci(4)", "match": "3" },
+        { "term": "fibonacci(5)", "match": "5" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are examples of problems that can be solved using recursion? (Select all that apply)",
+      "options": [
+        "Fibonacci sequence",
+        "Factorial calculation",
+        "Printing a simple \"Hello, World!\"",
+        "Tower of Hanoi"
+      ],
+      "answer": [
+        "Fibonacci sequence",
+        "Factorial calculation",
+        "Tower of Hanoi"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps for executing a recursive function:",
+      "options": [
+        "Check for the base case.",
+        "Perform computation and recursive call.",
+        "Return the final result after all recursive calls are resolved."
+      ],
+      "correctOrder": [
+        "Check for the base case.",
+        "Perform computation and recursive call.",
+        "Return the final result after all recursive calls are resolved."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this recursive function?\n\npublic static void countdown(int n) {\n    System.out.println(n);\n    countdown(n - 1);\n}",
+      "options": [
+        "Missing return statement",
+        "No base case to stop recursion",
+        "Incorrect function name"
+      ],
+      "answer": "No base case to stop recursion",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to create a recursive function that prints numbers from 1 to n:\n\npublic static void printNumbers(int n) {\n    if (n == 0) return;\n    printNumbers(____);\n    System.out.println(n);\n}",
+      "answer": "n - 1",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      },
+      {
+        "topic": "6. Basic Input and Output",
+        "subtopics": [
+          { "subtopic": "User input using Scanner class", "questionsData": [
+    {
+      "type": "fill",
+      "question": "In Java, the Scanner class is located in the __________ package.",
+      "answer": "java.util",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which statement correctly initializes a Scanner object to take input from the user?",
+      "options": [
+        "Scanner scan = new Scanner();",
+        "Scanner scan = new Scanner(System.in);",
+        "Scanner scan = Scanner(System.in);",
+        "Scanner scan = new Scanner.input();"
+      ],
+      "answer": "Scanner scan = new Scanner(System.in);",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The Scanner class can only be used for reading integer input in Java.",
+      "answer": "False",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java program that takes user input for an integer and prints it:\n\nSystem.out.print, Scanner, (System.in), scan = new Scanner, int num = scan.nextInt(), close(), scan., Enter a number:, println(num);",
+      "options": ["System.out.print", "Scanner", "(System.in)", "scan = new Scanner", "int num = scan.nextInt()", "close()", "scan.", "Enter a number:", "println(num);"],
+      "answer": ["import", "java.util.Scanner", ";", "public", "class", "Main", "{", "public", "static", "void", "main(String[]", "args)", "{", "Scanner", "scan", "=", "new", "Scanner", "(System.in)", ";", "System.out.print", "(\"Enter a number: \")", ";", "int", "num", "=", "scan.nextInt()", ";", "System.out.println(num);", "scan.close()", ";", "}", "}"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following Java code do?\n\nScanner scanner = new Scanner(System.in);\nSystem.out.print(\"Enter your name: \");\nString name = scanner.nextLine();\nSystem.out.println(\"Hello, \" + name + \"!\");",
+      "options": [
+        "Takes user input and prints a greeting message",
+        "Prints \"Hello, World!\" without user input",
+        "Throws a compilation error"
+      ],
+      "answer": "Takes user input and prints a greeting message",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the input given by the user with the expected output of the program:\n\nScanner scan = new Scanner(System.in);\nSystem.out.print(\"Enter your age: \");\nint age = scan.nextInt();\nSystem.out.println(\"Your age is: \" + age);",
+      "options": [
+        { "term": "20", "match": "\"Your age is: 20\"" },
+        { "term": "35", "match": "\"Your age is: 35\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following are valid methods of the Scanner class? (Select all that apply)",
+      "options": [
+        "nextInt()",
+        "nextString()",
+        "nextLine()",
+        "nextDouble()"
+      ],
+      "answer": [
+        "nextInt()",
+        "nextLine()",
+        "nextDouble()"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the steps in the correct order for reading user input using Scanner in Java:",
+      "options": [
+        "Create a Scanner object using System.in.",
+        "Prompt the user for input using System.out.print().",
+        "Read input using the appropriate Scanner method.",
+        "Store the input in a variable and process it.",
+        "Close the Scanner object after use."
+      ],
+      "correctOrder": [
+        "Create a Scanner object using System.in.",
+        "Prompt the user for input using System.out.print().",
+        "Read input using the appropriate Scanner method.",
+        "Store the input in a variable and process it.",
+        "Close the Scanner object after use."
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java program?\n\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scan = new Scanner();\n        System.out.println(\"Enter your name: \");\n        String name = scan.nextString();\n        System.out.println(\"Hello, \" + name);\n    }\n}",
+      "options": [
+        "Scanner object should be initialized with System.in.",
+        "nextString() is not a valid method.",
+        "Both a and b."
+      ],
+      "answer": "Both a and b.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java code to take user input and store it in a variable:\n\nScanner scanner = new Scanner(System.in);\nSystem.out.print(\"Enter a number: \");\nint num = scanner.___();",
+      "answer": "nextInt()",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Output using System.out.println()", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The System.out.println() method is used to display output on the __________.",
+      "answer": "console",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct syntax for printing \"Hello, World!\" in Java?",
+      "options": [
+        "print(\"Hello, World!\");",
+        "System.println(\"Hello, World!\");",
+        "System.out.println(\"Hello, World!\");",
+        "Console.print(\"Hello, World!\");"
+      ],
+      "answer": "System.out.println(\"Hello, World!\");",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The System.out.println() method prints text on the screen and moves the cursor to the next line.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java statement for printing output:\n\nSystem, (\"Java is fun!\"), out, println, ;",
+      "options": ["System", "(\"Java is fun!\")", "out", "println", ";"],
+      "answer": ["System", ".", "out", ".", "println", "(\"Java is fun!\")", ";"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will the following Java code output?\n\nSystem.out.println(\"Java\");\nSystem.out.println(\"Programming\");",
+      "options": [
+        "JavaProgramming",
+        "Java Programming",
+        "Java\nProgramming",
+        "Compilation error"
+      ],
+      "answer": "Java\nProgramming",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the given Java statements with their expected output:\n\nSystem.out.print(\"Hello \");\nSystem.out.println(\"World!\");",
+      "options": [
+        { "term": "System.out.print(\"Hello \"); System.out.println(\"World!\");", "match": "\"Hello World!\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following statements will print text on the console? (Select all that apply)",
+      "options": [
+        "System.out.println(\"Welcome!\");",
+        "System.out.print(\"Java\");",
+        "print(\"Output!\");",
+        "System.print(\"Hello!\");"
+      ],
+      "answer": [
+        "System.out.println(\"Welcome!\");",
+        "System.out.print(\"Java\");"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following statements in order to print:\n\nHello,\nWelcome to Java!",
+      "options": [
+        "System.out.println(\"Welcome to Java!\");",
+        "System.out.println(\"Hello,\");"
+      ],
+      "correctOrder": [
+        "System.out.println(\"Hello,\");",
+        "System.out.println(\"Welcome to Java!\");"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java program?\n\npublic class Main {\n    public static void main(String[] args) {\n        System.println(\"Hello, Java!\");\n    }\n}",
+      "options": [
+        "println() should be out.println().",
+        "The semicolon is missing.",
+        "Both a and b."
+      ],
+      "answer": "println() should be out.println().",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java statement to print \"Coding is fun!\" on the screen:\n\nSystem.out.______(\"Coding is fun!\");",
+      "answer": "println",
+      "component": "FillInTheBlank"
+    }
+] },
+          { "subtopic": "Formatting output with printf()", "questionsData": [
+    {
+      "type": "fill",
+      "question": "The printf() method in Java is part of the __________ class.",
+      "answer": "PrintStream",
+      "component": "FillInTheBlank"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct syntax for formatting a floating-point number to two decimal places using printf()?",
+      "options": [
+        "System.out.printf(\"%.2d\", 3.14159);",
+        "System.out.printf(\"%.2f\", 3.14159);",
+        "System.out.printf(\"%2f\", 3.14159);",
+        "System.out.printf(\"%s\", 3.14159);"
+      ],
+      "answer": "System.out.printf(\"%.2f\", 3.14159);",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "true-false",
+      "question": "The printf() method can be used to format numbers, strings, and characters in Java.",
+      "answer": "True",
+      "component": "TrueFalseQuestion"
+    },
+    {
+      "type": "unscramble",
+      "question": "Unscramble the words to form a correct Java statement for formatting output:\n\nSystem.out, (\"%d\\n\", 25), printf, ;",
+      "options": ["System.out", "(\"%d\\n\", 25)", "printf", ";"],
+      "answer": ["System.out", ".", "printf", "(\"%d\\n\", 25)", ";"],
+      "component": "DragDropQuestion"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What will the following Java code output?\n\nSystem.out.printf(\"Price: $%.2f\", 19.9876);",
+      "options": [
+        "Price: $19.99",
+        "Price: $19.9876",
+        "Price: $19.98",
+        "Compilation error"
+      ],
+      "answer": "Price: $19.99",
+      "component": "MultipleChoiceQuestion"
+    },
+    {
+      "type": "match",
+      "question": "Match the given Java statements with their expected output:\n\nSystem.out.printf(\"Number: %04d\", 25);",
+      "options": [
+        { "term": "System.out.printf(\"Number: %04d\", 25);", "match": "\"Number: 0025\"" }
+      ],
+      "component": "MatchQuestion"
+    },
+    {
+      "type": "multiple-selection",
+      "question": "Which of the following format specifiers are valid in printf()? (Select all that apply)",
+      "options": [
+        "%d for integers",
+        "%s for strings",
+        "%f for floating-point numbers",
+        "%b for boolean values"
+      ],
+      "answer": [
+        "%d for integers",
+        "%s for strings",
+        "%f for floating-point numbers",
+        "%b for boolean values"
+      ],
+      "component": "MultipleSelectionQuestion"
+    },
+    {
+      "type": "order",
+      "question": "Arrange the following Java statements in order to print:\n\nTotal: $100.50",
+      "options": [
+        "System.out.printf(\"Total: \");",
+        "System.out.printf(\"$%.2f\", 100.5);"
+      ],
+      "correctOrder": [
+        "System.out.printf(\"Total: \");",
+        "System.out.printf(\"$%.2f\", 100.5);"
+      ],
+      "component": "OrderQuestion"
+    },
+    {
+      "type": "code-correction",
+      "question": "What is wrong with this Java program?\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.printf(\"Pi value is: %.d\", 3.14159);\n    }\n}",
+      "options": [
+        "%.d should be %.2f for floating-point numbers.",
+        "The semicolon is missing.",
+        "Both a and b."
+      ],
+      "answer": "%.d should be %.2f for floating-point numbers.",
+      "component": "CodeCorrectionQuestion"
+    },
+    {
+      "type": "fill",
+      "question": "Complete the Java statement to format the integer 42 with leading zeros (total width of 5):\n\nSystem.out.printf(\"_____\", 42);",
+      "answer": "%05d",
+      "component": "FillInTheBlank"
+    }
+] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 2: Object-Oriented Programming",
+    "topics": [
+      {
+        "topic": "7. Introduction to OOP",
+        "subtopics": [
+          { "subtopic": "Classes and objects", "questionsData": [] },
+          { "subtopic": "Instance variables and methods", "questionsData": [] },
+          { "subtopic": "Constructors: default and parameterized", "questionsData": [] },
+          { "subtopic": "this keyword", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "8. Encapsulation and Access Modifiers",
+        "subtopics": [
+          { "subtopic": "Private vs public access modifiers", "questionsData": [] },
+          { "subtopic": "Getters and setters", "questionsData": [] },
+          { "subtopic": "Encapsulation principles", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "9. Inheritance",
+        "subtopics": [
+          { "subtopic": "Extending classes using extends", "questionsData": [] },
+          { "subtopic": "Method overriding", "questionsData": [] },
+          { "subtopic": "super keyword", "questionsData": [] },
+          { "subtopic": "Types of inheritance: single, multilevel, hierarchical", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "10. Polymorphism",
+        "subtopics": [
+          { "subtopic": "Method overloading (compile-time polymorphism)", "questionsData": [] },
+          { "subtopic": "Method overriding (runtime polymorphism)", "questionsData": [] },
+          { "subtopic": "Dynamic method dispatch", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "11. Abstraction and Interfaces",
+        "subtopics": [
+          { "subtopic": "Abstract classes and methods", "questionsData": [] },
+          { "subtopic": "Interfaces and their implementation", "questionsData": [] },
+          { "subtopic": "Multiple inheritance using interfaces", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 3: Data Structures and Collections",
+    "topics": [
+      {
+        "topic": "12. Arrays",
+        "subtopics": [
+          { "subtopic": "Single-dimensional and multi-dimensional arrays", "questionsData": [] },
+          { "subtopic": "Array manipulation: sorting, searching", "questionsData": [] },
+          { "subtopic": "Enhanced for loop", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "13. Collections Framework",
+        "subtopics": [
+          { "subtopic": "Lists: ArrayList, LinkedList", "questionsData": [] },
+          { "subtopic": "Sets: HashSet, TreeSet", "questionsData": [] },
+          { "subtopic": "Maps: HashMap, TreeMap", "questionsData": [] },
+          { "subtopic": "Iterators and for-each loop", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 4: Exception Handling and File I/O",
+    "topics": [
+      {
+        "topic": "14. Exception Handling",
+        "subtopics": [
+          { "subtopic": "Try-catch blocks", "questionsData": [] },
+          { "subtopic": "Multiple catch blocks", "questionsData": [] },
+          { "subtopic": "Finally block", "questionsData": [] },
+          { "subtopic": "Custom exceptions", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "15. File Handling",
+        "subtopics": [
+          { "subtopic": "Reading from and writing to files using FileReader, FileWriter", "questionsData": [] },
+          { "subtopic": "Using BufferedReader and BufferedWriter", "questionsData": [] },
+          { "subtopic": "Handling file exceptions", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 5: Advanced Java Concepts",
+    "topics": [
+      {
+        "topic": "16. Multithreading",
+        "subtopics": [
+          { "subtopic": "Creating threads using Thread class and Runnable interface", "questionsData": [] },
+          { "subtopic": "Thread synchronization", "questionsData": [] },
+          { "subtopic": "Thread lifecycle", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "17. Generics",
+        "subtopics": [
+          { "subtopic": "Generic classes and methods", "questionsData": [] },
+          { "subtopic": "Type parameters", "questionsData": [] },
+          { "subtopic": "Bounded types", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 6: Working with Libraries and APIs",
+    "topics": [
+      {
+        "topic": "18. Java Standard Library",
+        "subtopics": [
+          { "subtopic": "Working with java.util, java.io, java.math", "questionsData": [] },
+          { "subtopic": "Using StringBuilder and StringBuffer", "questionsData": [] },
+          { "subtopic": "Date and time API (java.time)", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "19. Working with APIs",
+        "subtopics": [
+          { "subtopic": "Sending HTTP requests using HttpURLConnection", "questionsData": [] },
+          { "subtopic": "Parsing JSON data using libraries like Gson or Jackson", "questionsData": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "Phase 7: Project Development and Continuous Learning",
+    "topics": [
+      {
+        "topic": "20. Version Control with Git",
+        "subtopics": [
+          { "subtopic": "Basic Git commands: git init, add, commit, push", "questionsData": [] },
+          { "subtopic": "Branching and merging", "questionsData": [] },
+          { "subtopic": "Working with GitHub", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "21. Building Projects",
+        "subtopics": [
+          { "subtopic": "Project 1: Simple Banking System", "questionsData": [] },
+          { "subtopic": "Project 2: Student Management System", "questionsData": [] },
+          { "subtopic": "Project 3: Online Quiz Application", "questionsData": [] }
+        ]
+      },
+      {
+        "topic": "22. Exploring Advanced Topics",
+        "subtopics": [
+          { "subtopic": "JavaFX for GUI development", "questionsData": [] },
+          { "subtopic": "Spring Boot for web development", "questionsData": [] },
+          { "subtopic": "Unit Testing with JUnit", "questionsData": [] }
+        ]
+      }
+    ]
+  }
+]
